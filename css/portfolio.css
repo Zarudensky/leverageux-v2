@@ -1,0 +1,29 @@
+.portfolio__page .section__hero {
+  height: calc(700px - 206px);
+  padding-top: 206px;
+  background-image: url(../img/portfolio/hero.png);
+}
+
+@media screen and (max-width: 1220px) {
+	.portfolio__page .section__hero {
+    height: calc(465px - 96px);
+    padding-top: 96px;
+  }
+  .portfolio__page .hero__descr {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .portfolio__page .section__hero {
+    background-image: url(../img/portfolio/hero_mob.png);
+    height: calc(365px - 96px);
+  }
+  .portfolio__page .hero__lines {
+    background-image: url(../img/portfolio/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+}

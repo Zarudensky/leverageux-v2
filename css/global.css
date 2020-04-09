@@ -64,9 +64,6 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
-.header__logo:hover {
-  color: #fff;
-}
 .header__logo span {
   display: inline-block;
   color: #00A2B8;
@@ -160,12 +157,18 @@ body {
   display: inline-block;
   width: 24px;
   height: 3px;
-  background: #fff;
+  background: #6C6C6C;
   border-radius: 2px;
   margin-bottom: 5px;
 }
 .header__btn_om span:last-child {
   margin-bottom: 0;
+}
+.header.scrolled .header__btn_om span {
+  background: #fff;
+}
+.header.scrolled .header__btn_om:hover span {
+  background: #00A2B8;
 }
 .header__block_menu {
   width: 60%;
@@ -182,7 +185,7 @@ body {
   bottom: 0;
   width: calc(100% + 63px);
   height: 2px;
-  background: linear-gradient(147.42deg, #3D0047 10.26%, #006176 115.14%);
+  background: linear-gradient(147.42deg, #e3bafc 10.26%, #b1dce6 115.14%);
   -moz-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   -webkit-transform: rotate(-180deg);
@@ -270,7 +273,7 @@ body {
 
 .header.scrolled {
   position: fixed;
-  background: #fff;
+  background: #f9f9f9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
 }
 .header.scrolled .header__btn_ep {
@@ -311,10 +314,8 @@ body {
 }
 .section__hero {
   position: relative;
-  height: 650px;
-  background-image: url(../img/hero.png);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -324,6 +325,7 @@ body {
 }
 .hero__title {
   font-family: 'EkibastuzBlack';
+  font-weight: normal;
   font-size: 54px;
   line-height: 54px;
   letter-spacing: 0.01em;
@@ -332,11 +334,28 @@ body {
   margin: 0 0 18px;
 }
 .hero__descr {
+  font-weight: bold;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 28px;
   letter-spacing: 0.01em;
   text-transform: capitalize;
   color: #828282;
+}
+.hero__lines {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -khtml-background-size: cover;
+  background-image: url(../img/hero_lines.svg);
+  height: 500px;
+  bottom: 0;
+  z-index: 2;
 }
 
 .break {
@@ -727,8 +746,10 @@ textarea:focus {
   .footer {
     height: 925px;
   }
+  .hero__lines {
+    height: 361px;
+  }
 }
-
 @media screen and (max-width: 1445px) {
   .footer {
     height: 950px;
@@ -899,16 +920,22 @@ textarea:focus {
     appearance:         none;
     -webkit-tap-highlight-color: transparent;
   }
+  .section__hero {
+    margin-bottom: 40px;
+  }
   .hero__title {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 32px;
+    margin: 0 0 13px;
   }
   .hero__descr {
-    max-width: 235px;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 20px;
     text-align: center;
-    margin-bottom: 27px;
+    margin: 0 auto;
+  }
+  .hero__descr br {
+    display: none;
   }
 }
 @media screen and (max-width: 1187px) {

@@ -1,8 +1,23 @@
 .index__page .header {
   background: #0B161E;
 }
+.index__page .header.scrolled {
+  background: #fff;
+}
+.index__page .header__menu_line {
+  background: linear-gradient(147.42deg, #3D0047 10.26%, #006176 115.14%);
+}
 .index__page .content {
   margin-top: 67.5px;
+}
+.index__page .header__logo:hover {
+  color: #fff;
+}
+.index__page .header__btn_om:hover span {
+  background: #00A2B8;
+}
+.index__page .header__btn_om span {
+  background: #fff;
 }
 .section__main {
   position: relative;
