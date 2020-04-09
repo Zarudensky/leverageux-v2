@@ -1,9 +1,6 @@
 .design__page .scrollup {
   background: url(../img/design/arrowup.svg) no-repeat center;
 }
-.design__page .header {
-  background: none;
-}
 .design__page .header.scrolled {
   background: #fff;
 }
@@ -806,6 +803,7 @@
   line-height: 14px;
   color: #4A4A4A;
 }
+#plan { display: none; }
 
 @media screen and (max-width: 1800px) {
   .section__data_inscription:before { width: 30%; }

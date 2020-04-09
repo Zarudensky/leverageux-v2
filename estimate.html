@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="theme-color" content="#FFFFFF">
+		<meta name="theme-color" content="#f9f9f9">
 		<meta name="description" content="Estimate">
 
 		<link rel="icon" href="favicon.ico" type="img/favicon.ico" />
@@ -20,7 +20,7 @@
 		<title>Estimate</title>
 	</head>
 	<body class="estimate__page">
-		<header class="header">
+		<header class="header animated">
 			<div class="header__container">
 			<div class="header__block header__block_logo">
 				<a class="header__logo animated" href="./index.html">Leverage<span>UX</span></a>
@@ -30,50 +30,57 @@
 				</div>
 			</div>
 			<div class="header__block header__block_menu">
-	    		<nav id="menu" class="header__menu">
-	    			<div class="menu__btn_back">
-	    				<svg class="btn__back" width="32" height="20" viewBox="0 0 32 20" xmlns="http://www.w3.org/2000/svg">
-							<path d="M1.38527 8.61473H27.2708L21.0941 2.43768C20.553 1.89688 20.553 1.01961 21.0941 0.478895C21.6352 -0.0622196 22.5125 -0.0622196 23.0528 0.478895L31.5942 9.02041C32.1353 9.56121 32.1353 10.4386 31.5942 10.9792L23.0528 19.5211C22.7823 19.7917 22.4279 19.9269 22.0735 19.9269C21.7191 19.9269 21.3646 19.7917 21.0941 19.5211C20.553 18.9803 20.553 18.103 21.0941 17.5624L27.2708 11.385H1.38527C0.620314 11.385 0 10.7648 0 9.99984C0 9.23489 0.620234 8.61473 1.38527 8.61473Z"/>
-						</svg>
-	    			</div>
-	    			<div class="header__menu_link">
-	    				<img class="menu__link_img" src="./img/home.svg" alt="home">
-	    				<a href="./index.html">Overview</a>
-	    				<div class="link__line"></div>
-    				</div>
-	    			<div class="header__menu_link">
-	    				<img class="menu__link_img link__img_fin" src="./img/fin.svg" alt="fin">
-	    				<a href="./design-process.html">Design Process</a>
-	    				<div class="link__line"></div>
-	    			</div>
-	    			<div class="header__menu_link">
-	    				<img class="menu__link_img" src="./img/about.svg" alt="about">
-	    				<a href="./about.html">About</a>
-	    				<div class="link__line"></div>
-	    			</div>
-	    			<!-- <div class="header__menu_link">
-	    				<img class="menu__link_img" src="./img/careers.svg" alt="careers">
-	    				<a href="#">Careers</a>
-	    				<div class="link__line"></div>
-	    			</div> -->
-	    			<div class="header__menu_line"></div>
-	    		</nav>
-    		</div>
-    		<div class="header__block header__block_btn">
-    			<a class="btn__back_home" href="./index.html">
-	    			<svg class="back__home_svg" width="32" height="20" viewBox="0 0 32 20" xmlns="http://www.w3.org/2000/svg">
+    		<nav id="menu" class="header__menu">
+    			<div class="menu__btn_back">
+    				<svg class="btn__back" width="32" height="20" viewBox="0 0 32 20" xmlns="http://www.w3.org/2000/svg">
 						<path d="M1.38527 8.61473H27.2708L21.0941 2.43768C20.553 1.89688 20.553 1.01961 21.0941 0.478895C21.6352 -0.0622196 22.5125 -0.0622196 23.0528 0.478895L31.5942 9.02041C32.1353 9.56121 32.1353 10.4386 31.5942 10.9792L23.0528 19.5211C22.7823 19.7917 22.4279 19.9269 22.0735 19.9269C21.7191 19.9269 21.3646 19.7917 21.0941 19.5211C20.553 18.9803 20.553 18.103 21.0941 17.5624L27.2708 11.385H1.38527C0.620314 11.385 0 10.7648 0 9.99984C0 9.23489 0.620234 8.61473 1.38527 8.61473Z"/>
+					</svg>
+    			</div>
+    			<div class="header__menu_link active">
+    				<img class="menu__link_img" src="./img/home.svg" alt="home">
+    				<a href="./index.html">Overview</a>
+    				<div class="link__line"></div>
+  				</div>
+  				<div class="header__menu_link">
+    				<img class="menu__link_img" src="./img/fin.svg" alt="portfolio">
+    				<a href="./portfolio.html">Portfolio</a>
+    				<div class="link__line"></div>
+    			</div>
+    			<div class="header__menu_link">
+    				<img class="menu__link_img link__img_fin" src="./img/fin.svg" alt="design">
+    				<a href="./design-process.html">Design Process</a>
+    				<div class="link__line"></div>
+    			</div>
+    			<div class="header__menu_link">
+    				<img class="menu__link_img" src="./img/fin.svg" alt="pricing">
+    				<a href="./pricing.html">Pricing</a>
+    				<div class="link__line"></div>
+    			</div>
+    			<div class="header__menu_link">
+    				<img class="menu__link_img" src="./img/about.svg" alt="about">
+    				<a href="./about.html">About</a>
+    				<div class="link__line"></div>
+    			</div>
+    			<div class="header__menu_line"></div>
+    		</nav>
+  		</div>
+  		<div class="header__block header__block_btn">
+  			<a class="btn__back_home" href="./">
+    			<svg class="back__home_svg" width="32" height="20" viewBox="0 0 32 20" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1.38527 8.61473H27.2708L21.0941 2.43768C20.553 1.89688 20.553 1.01961 21.0941 0.478895C21.6352 -0.0622196 22.5125 -0.0622196 23.0528 0.478895L31.5942 9.02041C32.1353 9.56121 32.1353 10.4386 31.5942 10.9792L23.0528 19.5211C22.7823 19.7917 22.4279 19.9269 22.0735 19.9269C21.7191 19.9269 21.3646 19.7917 21.0941 19.5211C20.553 18.9803 20.553 18.103 21.0941 17.5624L27.2708 11.385H1.38527C0.620314 11.385 0 10.7648 0 9.99984C0 9.23489 0.620234 8.61473 1.38527 8.61473Z"/>
 					</svg>
 					<span class="back__home_txt">Back to Homepage</span>
 				</a>
 			</div>
-    		<div class="menu__back"></div>
+  		<div class="menu__back"></div>
 		</header>
 		<main class="content">
-			<div class="estimate__lines"></div>	
+			<div class="content__section section__hero">
+				<h1 class="hero__title">Get an estimate</h1>
+				<p class="hero__descr">Fill out this simple form. Our team will contact you promptly to discuss next steps.</p>
+			</div>
+				
 			<div class="estimate__container">
-				<h1 class="estimate__container_title">Get an estimate</h1>
-				<p class="estimate__container_description">Fill out this simple form. Our team will contact you promptly to discuss next steps.</p>
 				<div class="estimate__form">
 					<div class="estimate__form_block main__form">
 						<div class="main__form_block main__form__checkboxes main__block_first">
@@ -168,7 +175,6 @@
 					</div>
 				</div>
 			</div>
-
 		</main>
 
 		<footer class="footer">
