@@ -145,15 +145,15 @@
 }
 .reviews__text {
   z-index: 2;
-  background-image: url(../img/design/reviews_text.svg);
+  background-image: url(../img/about/reviews_text.svg);
 }
 .reviews__gradient {
   z-index: 1;
-  background-image: url(../img/design/reviews_gradient.svg);
+  background-image: url(../img/about/reviews_gradient.svg);
 }
 .reviews__lower {
   z-index: 3;
-  background-image: url(../img/design/reviews_lower.svg);
+  background-image: url(../img/about/reviews_lower.svg);
 }
 .reviews__container_text {
   position: absolute;
@@ -390,4 +390,7 @@
   .persone_5 .persone__position {
     height: 42px;
   }
+}
+@media screen and (max-width: 410px) {
+  .review__block_descr br {display: none;}
 }
