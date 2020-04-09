@@ -606,17 +606,6 @@
 .img__block.img__lower.crypt__lower {
   background-position: left 1px;
 }
-.img__block {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  -o-background-size: contain;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -khtml-background-size: contain;
-}
 .section__real.animated .img__gradient,
 .section__real.animated .img__lower {
   animation: showImgBlockToLeft 1s 1 ease;

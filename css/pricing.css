@@ -1,0 +1,29 @@
+.pricing__page .section__hero {
+  height: calc(635px - 205px);
+  padding-top: 205px;
+  background-image: url(../img/pricing/hero.png);
+}
+
+@media screen and (max-width: 1220px) {
+  .pricing__page .section__hero {
+    height: calc(495px - 96px);
+    padding-top: 96px;
+  }
+  .pricing__page .hero__descr {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .pricing__page .section__hero {
+    background-image: url(../img/pricing/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .pricing__page .hero__lines {
+    background-image: url(../img/pricing/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+}

@@ -312,6 +312,17 @@ body {
   width: 100%;
   text-align: center;
 }
+.img__block {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -khtml-background-size: contain;
+}
 .section__hero {
   position: relative;
   background-repeat: no-repeat;
