@@ -1,11 +1,10 @@
 $(document).ready(function(){
-	$(window).scroll(function(){	
+	$(window).scroll(function(){
 		var wt = $(window).scrollTop();
 		var wh = $(window).height();
 		var footerBtnTop = $('#btn_fr').offset().top;
 		var footerBtnHeight = $('#btn_fr').outerHeight();
 		var footerLogo = $('.footer__logo').offset().top + $('.footer__logo').height();
-
 		// fixed/no fixed heder
 		if($('#btn_mn').length) {
 			var headerBtnTop = $('#btn_mn').offset().top;

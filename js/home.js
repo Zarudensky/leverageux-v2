@@ -39,20 +39,6 @@ $(document).ready(function(){
 			}
 			block_show = true;
 		}
-		// // animated real
-		// var howTop = $('.section__real').offset().top;
-		// var howHeight = $('.section__real').outerHeight();
-	 //    if (wt + wh >= howTop && wt + wh - howHeight * 2 <= howTop + (wh - howHeight)){
-		// 	if (block_show == null || block_show == false) {
-		// 		$('.section__real').addClass('animated');
-		// 	}
-		// 	block_show = true;
-		// 	} else {
-		// 	if (block_show == null || block_show == true) {
-		// 		$('.section__real').removeClass('animated');
-		// 	}
-		// 	block_show = false;
-		// }
     });
     // hover how round
     $('#r__purple').hover(function() {	

@@ -3,6 +3,21 @@
   padding-top: 206px;
   background-image: url(../img/portfolio/hero.png);
 }
+.section__container_img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -khtml-background-size: contain;
+}
+.section__plants .section__container_img {
+  background-image: url(../img/portfolio/plants.png);
+}
+.section__plants .section__container_text {
+  margin-top: 75px;
+}
+
 
 @media screen and (max-width: 1220px) {
 	.portfolio__page .section__hero {
