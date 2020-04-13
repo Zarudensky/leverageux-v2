@@ -11,13 +11,30 @@
   -moz-background-size: contain;
   -khtml-background-size: contain;
 }
+.section__board-right .section__container_img {
+  background-position: right;
+}
+.section__board-left .section__container_img {
+  background-position: left;
+}
 .section__plants .section__container_img {
   background-image: url(../img/portfolio/plants.png);
 }
 .section__plants .section__container_text {
   margin-top: 75px;
 }
-
+.section__insight .section__container_img {
+  background-image: url(../img/portfolio/insight.png);
+}
+.section__insight .section__container_text {
+  margin-top: 75px;
+}
+.section__rank .section__container_img {
+  background-image: url(../img/portfolio/rank.png);
+}
+.section__rank .section__container_text {
+  margin-top: 75px;
+}
 
 @media screen and (max-width: 1220px) {
 	.portfolio__page .section__hero {
@@ -26,6 +43,11 @@
   }
   .portfolio__page .hero__descr {
     max-width: 300px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .portfolio__page .section__container_text {
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 560px) {

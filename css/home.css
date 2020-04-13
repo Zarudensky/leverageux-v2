@@ -50,7 +50,7 @@
   bottom: 65px;
 }
 .section__main.animated .main__chart {
-  animation: mainChart 2.5s 1 ease;
+  animation: mainChart 2s 1 ease;
 }
 @keyframes mainChart {
   0% {
@@ -77,7 +77,7 @@
   bottom: 230px;
 }
 .section__main.animated .main__tablet {
-  animation: mainTablet 1.5s 1 ease;
+  animation: mainTablet 1.2s 1 ease;
 }
 @keyframes mainTablet {
   0% {
@@ -95,7 +95,7 @@
   bottom: 740px;
 }
 .section__main.animated .main__tablet_shadow {
-  animation: mainTabletShadow 2.5s 1 ease;
+  animation: mainTabletShadow 2s 1 ease;
 }
 @keyframes mainTabletShadow {
   0% {
@@ -119,7 +119,7 @@
   bottom: 605px;
 }
 .section__main.animated .main__tablet_shadow_lines {
-  animation: mainTabletShadowLines 3.5s 1 ease;
+  animation: mainTabletShadowLines 2.5s 1 ease;
 }
 @keyframes mainTabletShadowLines {
   0% {
@@ -143,7 +143,7 @@
   z-index: 9;
 }
 .section__main.animated .main__container {
-  animation: blockOpacity 3.5s 1 ease;
+  animation: blockOpacity 2.5s 1 ease;
 }
 .main__container .header__btn_ep {
   display: inline-flex;
@@ -898,6 +898,16 @@
   }
   .section__block .pr {
     width: 33%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .index__page .section__block {
+    order: 3;
+    margin: 20px auto;
+  }
+  .index__page .section__description {
+    order: 2;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 872px) {

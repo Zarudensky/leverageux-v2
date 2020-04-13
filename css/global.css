@@ -193,7 +193,7 @@ body {
   transform: rotate(-180deg);
 }
 .header.animated .header__menu_line{
-  animation: moveLine 1.5s 1 ease;
+  animation: moveLine 1s 1 linear;
 }
 @keyframes moveLine {
   0% {
@@ -432,7 +432,7 @@ body {
   }
 }
 .section__board.animated .img__board {
-  animation: showImgBlockToTop 2s 1 ease;
+  animation: showImgBlockToTop 1.6s 1 ease;
 }
 @keyframes showImgBlockToTop {
   0% {
@@ -447,7 +447,7 @@ body {
 }
 .section__board-right.animated .img__gradient,
 .section__board-right.animated .img__lower {
-  animation: showImgBlockToLeft 1s 1 ease;
+  animation: showImgBlockToLeft 0.8s 1 ease;
 }
 @keyframes showImgBlockToLeft {
   0% {
@@ -459,7 +459,7 @@ body {
 }
 .section__board-left.animated .img__gradient,
 .section__board-left.animated .img__lower {
-  animation: showImgBlockToRight 1.0s 1 ease;
+  animation: showImgBlockToRight 0.8s 1 ease;
 }
 @keyframes showImgBlockToRight {
   0% {
@@ -507,10 +507,12 @@ body {
 }
 .section__board-right .section__container_text {
   margin-left: 10%;
+  text-align: right;
 }
 .section__board-left .section__container_text {
   right: 0;
   margin-right: 10%;
+  text-align: left;
 }
 .section__title {
   font-size: 36px;
@@ -568,7 +570,7 @@ body {
   max-width: 365px;
   margin-left: auto;
 }
-.section__description a {
+.section__btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -583,7 +585,7 @@ body {
   background: #00A2B8;
   border-radius: 20px;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 20px;
   -webkit-user-select: none;
   -moz-user-select:    none;
   -ms-user-select:     none;
@@ -592,6 +594,9 @@ body {
   -moz-appearance:    none;
   appearance:         none;
   -webkit-tap-highlight-color: transparent;
+}
+.section__btn:hover {
+  box-shadow: 0 0 10px #3ddce8;
 }
 .img__lines {
   background-position: bottom;
@@ -1325,7 +1330,7 @@ textarea:focus {
     height: 340px;
   }
   .section__title {
-    order: 2;
+    order: 1;
     font-size: 24px;
     line-height: 24px;
     text-align: center;
@@ -1337,7 +1342,7 @@ textarea:focus {
     text-align: center;
   }
   .section__block {
-    order: 4;
+    order: 2;
     max-width: 520px;
     margin: 0 auto;
   }
@@ -1352,11 +1357,15 @@ textarea:focus {
   .section__description {
     order: 3;
     max-width: 520px;
-    margin: 0 auto 20px;
+    margin: 20px auto;
   }
   .section__board-right .section__description,
   .section__board-left .section__description {
     text-align: center;
+  }
+  .section__btn {
+    margin: 0 auto;
+    order: 4;
   }
   .img__block.img__lines {
     position: relative;
