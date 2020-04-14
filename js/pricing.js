@@ -1,11 +1,19 @@
 $(document).ready(function(){
+	// radio btn click 
+	$('.label1').click(function() {
+		$('.plans').addClass('desktop__price');
+		$('.plans').removeClass('mobile__price');
+	});
+	$('.label2').click(function() {
+		$('.plans').addClass('mobile__price');
+		$('.plans').removeClass('desktop__price');
+	});
 
 	// modal form buy
 	var modalBuy = $('#buyModal');
 	var btnBuy = $('.btn__buy');
 	var formBuyTitle = $('#formBuyTitle');
 	var inputPlan = $('#plan');
-
 	$(modalBuy).hide();
 	$(btnBuy).click(function() {
 	  	$(modalBuy).show();
@@ -17,21 +25,35 @@ $(document).ready(function(){
 	  	$('#descrBuy').val("");
 	});
 
-	$('.btn__starter').click(function() {
-		$(formBuyTitle).text('Starter');
-	  	$(inputPlan).val('Starter');
-	});
-	$('.btn__basic').click(function() {
-		$(formBuyTitle).text('Basic');
-	  	$(inputPlan).val('Basic');
+	$('.btn__concept').click(function() {
+		if ($('.plans').hasClass('desktop__price')) {
+			var formPlan = 'Concept Desktop';
+		}
+		if ($('.plans').hasClass('mobile__price')) {
+			var formPlan = 'Concept Mobile';
+		}
+		$(formBuyTitle).text(formPlan);
+	  	$(inputPlan).val(formPlan);
 	});
 	$('.btn__startup').click(function() {
-		$(formBuyTitle).text('Startup');
-	  	$(inputPlan).val('Startup');
+		if ($('.plans').hasClass('desktop__price')) {
+			var formPlan = 'Startup Desktop';
+		}
+		if ($('.plans').hasClass('mobile__price')) {
+			var formPlan = 'Startup Mobile';
+		}
+		$(formBuyTitle).text(formPlan);
+	  	$(inputPlan).val(formPlan);
 	});
 	$('.btn__business').click(function() {
-		$(formBuyTitle).text('Business');
-	  	$(inputPlan).val('Business');
+		if ($('.plans').hasClass('desktop__price')) {
+			var formPlan = 'Business Desktop';
+		}
+		if ($('.plans').hasClass('mobile__price')) {
+			var formPlan = 'Business Mobile';
+		}
+		$(formBuyTitle).text(formPlan);
+	  	$(inputPlan).val(formPlan);
 	});
 
 	// send form design

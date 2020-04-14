@@ -15,6 +15,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/pricing.js"></script>
 
 		<title>Pricing</title>
 	</head>
@@ -72,10 +73,24 @@
 				<div class="hero__lines"></div>
 			</section>
 
+
+
 			<section class="content__section section__plans">
 				<h2 class="section__plans_title">Design Packs</h2>
-				<div class="plans">
-					<div class="plan__block titles">
+				<div class="title__line"></div>
+				<ul class="radio__switch">
+				  <li class="radio__switch-item">
+				    <input class="radio__switch-input" type="radio" name="radioButton" id="radio1" checked>
+				    <label class="radio__switch-label label1" for="radio1"><span class="rsl__txt-desk">Desktop</span></label>
+				  </li>
+				  <li class="radio__switch-item">
+				    <input class="radio__switch-input" type="radio" name="radioButton" id="radio2">
+				    <label class="radio__switch-label label2" for="radio2"><span class="rsl__txt-mob">Mobile</span></label>
+				    <div aria-hidden="true" class="radio__switch-marker"></div>
+				  </li>
+				</ul>
+				<div class="plans desktop__price">
+					<div class="titles">
 						<h6>Number of pages</h6>
 						<h6>Business requirements review</h6>
 						<h6>Competitor research</h6>
@@ -89,226 +104,176 @@
 						<h6>Clickable prototype</h6>
 						<h6>Development Support</h6>
 					</div>
-					<div class="plan__block starter">
-						<h5 class="plan__block_title">Starter</h5>
-						<p class="plan__block_price">$790</p>
-						<div class="plan__block_time">3-5 days</div>
-						<p class="plan__block_descr">This design pack is good when you<br>want to have the initial look and<br>feel of the app to move forward<br>or to share the idea with<br>potential partners or investors.</p>
-						<div class="plan__block_info plan__info_first">
-							<h6 class="info__title">Number of pages</h6>
-							<p class="info__descr">1 Presentation Screen<br>(usually Dashboard)</p>
+					<div class="plan__blocks">
+						<div class="plan__block concept">
+							<h5 class="plan__block_title">Concept</h5>
+							<p class="plan__block_price desktop">$2790</p>
+							<p class="plan__block_price mobile">$3790</p>
+							<div class="plan__block_time desktop">7-10 days</div>
+							<div class="plan__block_time mobile">10-14 days</div>
+							<p class="plan__block_descr">If you already have the idea and<br>want to make a basic design to<br>share the concept with your<br>partners or to pitch it to investor,<br>this pack is ideal for you</p>
+							<div class="plan__block_info plan__info_first">
+								<h6 class="info__title">Number of pages</h6>
+								<p class="info__descr">Up to 5 screens</p>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Business requirements<br>review</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Competitor research</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Wireframes</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">App visual identity</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UI Animations</h6>
+								<div class="info__check text">Up to 4 animations</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Responsive Design</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Interactions design</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Clickable prototype</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Development Support</h6>
+								<div class="info__check none"></div>
+							</div>
+							<button class="btn btn__buy btn__concept" type="submit">Buy Now</button>
 						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Business requirements<br>review</h6>
-							<div class="info__check check"></div>
+						<div class="plan__block startup">
+							<h5 class="plan__block_title">Startup MVP</h5>
+							<p class="plan__block_price">$5790</p>
+							<div class="plan__block_time">5-6 weeks</div>
+							<p class="plan__block_descr">If you want to get to the market<br>quickly, effectively and on budget,<br>this pack is for you</p>
+							<div class="plan__block_info plan__info_first">
+								<h6 class="info__title">Number of pages</h6>
+								<p class="info__descr">Up to 15 screens</p>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Business requirements<br>review</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Competitor research</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title check">Wireframes</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">App visual identity</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UI Animations</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Responsive Design</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Interactions design</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Clickable prototype</h6>
+								<div class="info__check none"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Development Support</h6>
+								<div class="info__check text">1 month</div>
+							</div>
+							<button class="btn btn__buy btn__startup" type="submit">Buy Now</button>
 						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Competitor research</h6>
-							<div class="info__check check"></div>
+						<div class="plan__block business">
+							<h5 class="plan__block_title">business</h5>
+							<p class="plan__block_price">Let's talk</p>
+							<div class="plan__block_time">Custom</div>
+							<p class="plan__block_descr">Want a custom solution that will<br>help attract more customers and<br>increase profit? Book a free call<br>with us and get full clarity on<br>timing and budget for your project.</p>
+							<div class="plan__block_info plan__info_first">
+								<h6 class="info__title">Number of pages</h6>
+								<p class="info__descr"></p>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Business requirements<br>review</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Competitor research</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title check">Wireframes</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">App visual identity</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">UI Animations</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Responsive Design</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Interactions design</h6>
+								<div class="info__check check"></div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Clickable prototype</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<div class="plan__block_info">
+								<h6 class="info__title">Development Support</h6>
+								<div class="info__check text">optional</div>
+							</div>
+							<button class="btn btn__buy btn__business" type="submit">Buy Now</button>
 						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Wireframes</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">App visual identity</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UI Animations</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Responsive Design</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Interactions design</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Clickable prototype</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Development Support</h6>
-							<div class="info__check none"></div>
-						</div>
-						<button class="btn btn__buy btn__starter" type="submit">Buy Now</button>
 					</div>
-					<div class="plan__block basic">
-						<h5 class="plan__block_title">Basic<br><span>(Concept Design)</span></h5>
-						<p class="plan__block_price">$2790</p>
-						<div class="plan__block_time">7-10 days</div>
-						<p class="plan__block_descr">If you already have the idea and<br>want to make a basic design to<br>share the concept with your<br>partners or to pitch it to investor,<br>this pack is ideal for you</p>
-						<div class="plan__block_info plan__info_first">
-							<h6 class="info__title">Number of pages</h6>
-							<p class="info__descr">Up to 5 screens</p>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Business requirements<br>review</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Competitor research</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Wireframes</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">App visual identity</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UI Animations</h6>
-							<div class="info__check text">Up to 4 animations</div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Responsive Design</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Interactions design</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Clickable prototype</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Development Support</h6>
-							<div class="info__check none"></div>
-						</div>
-						<button class="btn btn__buy btn__basic" type="submit">Buy Now</button>
-					</div>
-					<div class="plan__block startup">
-						<h5 class="plan__block_title">Startup MVP<br><span>(Popular)</span></h5>
-						<p class="plan__block_price">$5790</p>
-						<div class="plan__block_time">5-6 weeks</div>
-						<p class="plan__block_descr">If you want to get to the market<br>quickly, effectively and on budget,<br>this pack is for you</p>
-						<div class="plan__block_info plan__info_first">
-							<h6 class="info__title">Number of pages</h6>
-							<p class="info__descr">Up to 15 screens</p>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Business requirements<br>review</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Competitor research</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title check">Wireframes</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">App visual identity</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UI Animations</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Responsive Design</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Interactions design</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Clickable prototype</h6>
-							<div class="info__check none"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Development Support</h6>
-							<div class="info__check text">1 month</div>
-						</div>
-						<button class="btn btn__buy btn__startup" type="submit">Buy Now</button>
-					</div>
-					<div class="plan__block business">
-						<h5 class="plan__block_title">business</h5>
-						<p class="plan__block_price">Let's talk</p>
-						<div class="plan__block_time">Custom</div>
-						<p class="plan__block_descr">Want a custom solution that will<br>help attract more customers and<br>increase profit? Book a free call<br>with us and get full clarity on<br>timing and budget for your project.</p>
-						<div class="plan__block_info plan__info_first">
-							<h6 class="info__title">Number of pages</h6>
-							<p class="info__descr"></p>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Business requirements<br>review</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Competitor research</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UX Design Toolkit to better<br>frame the product for<br>founders and product owners</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">User Flow based on the user<br>scenarios</h6>
-							<div class="info__check text">optional</div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title check">Wireframes</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">App visual identity</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">UI Animations</h6>
-							<div class="info__check text">optional</div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Responsive Design</h6>
-							<div class="info__check text">optional</div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Interactions design</h6>
-							<div class="info__check check"></div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Clickable prototype</h6>
-							<div class="info__check text">optional</div>
-						</div>
-						<div class="plan__block_info">
-							<h6 class="info__title">Development Support</h6>
-							<div class="info__check text">optional</div>
-						</div>
-						<button class="btn btn__buy btn__business" type="submit">Buy Now</button>
-					</div>
+					<div class="plan__lines"></div>
 					<div id="buyModal" class="modal">
 						<div class="modal-content">
 							<span class="close">
@@ -356,17 +321,17 @@
 						</div>
 						<div class="tabl__block_info">
 							<h6 class="tabl__info info__title">Custom Illustrations</h6>
-							<p class="info__descr">$300	per illustration</p>
+							<p class="info__descr">From $300	per illustration</p>
 							<p class="info__descr"></p>
 						</div>
 						<div class="tabl__block_info">
 							<h6 class="tabl__info info__title">Logo Design</h6>
-							<p class="info__descr">$300</p>
+							<p class="info__descr">From $300</p>
 							<p class="info__descr">3-5 days</p>
 						</div>
 						<div class="tabl__block_info">
 							<h6 class="tabl__info info__title">Landing Page Design</h6>
-							<p class="info__descr">$1.500</p>
+							<p class="info__descr">From $1.500</p>
 							<p class="info__descr">Up to 7 days</p>
 						</div>
 						<div class="tabl__block_info">
@@ -376,7 +341,7 @@
 						</div>
 						<div class="tabl__block_info">
 							<h6 class="tabl__info info__title">UX Product Audit</h6>
-							<p class="info__descr">$2000</p>
+							<p class="info__descr">From $2000</p>
 							<p class="info__descr">1 Week</p>
 						</div>
 					</div>
