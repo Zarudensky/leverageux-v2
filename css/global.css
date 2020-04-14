@@ -1157,9 +1157,8 @@ textarea:focus {
     top: calc(50% - 7px);
     left: 25px;
   }
-  .menu__link_img.link__img_fin {
+  .menu__link_img:first-child{
     top: calc(50% - 8px);
-    left: 23px;
   }
   .how__container_second {
     width: 31%;
