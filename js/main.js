@@ -76,6 +76,7 @@ $(document).ready(function(){
 			$('.menu__back').removeClass('active');
 			$('.btn__back').removeClass('active');
 			$('.header__block_menu').addClass('closed');
+			setTimeout("$('.header__block_menu').removeClass('closed')", 400);
 		}
 	});
 
