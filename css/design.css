@@ -4,30 +4,6 @@
   background-image: url(../img/design/hero.png);
 }
 
-@media screen and (max-width: 1220px) {
-  .design__page .section__hero {
-    height: calc(495px - 96px);
-    padding-top: 96px;
-  }
-  .design__page .hero__descr {
-    max-width: 300px;
-  }
-}
-@media screen and (max-width: 560px) {
-  .design__page .section__hero {
-    background-image: url(../img/design/hero_mob.png);
-    height: calc(395px - 96px);
-  }
-  .design__page .hero__lines {
-    background-image: url(../img/design/hero_lines_mob.svg);
-    background-size: contain;
-    -o-background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -khtml-background-size: contain;
-  }
-}
-
 .design__container_title {
   width: 520px;
   font-size: 54px;
@@ -391,6 +367,15 @@
   margin-bottom: 86px;
 }
 
+@media screen and (max-width: 1220px) {
+  .design__page .section__hero {
+    height: calc(495px - 96px);
+    padding-top: 96px;
+  }
+  .design__page .hero__descr {
+    max-width: 300px;
+  }
+}
 
 @media screen and (max-width: 1140px) {
   .approach__container_description {
@@ -594,6 +579,21 @@
     -webkit-background-size: 250%;
     -moz-background-size: 250%;
     -khtml-background-size: 250%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .design__page .section__hero {
+    background-image: url(../img/design/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .design__page .hero__lines {
+    background-image: url(../img/design/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
   }
 }
 

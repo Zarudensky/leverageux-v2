@@ -4,28 +4,93 @@
   background-image: url(../img/pricing/hero.png);
 }
 
-@media screen and (max-width: 1220px) {
-  .pricing__page .section__hero {
-    height: calc(495px - 96px);
-    padding-top: 96px;
-  }
-  .pricing__page .hero__descr {
-    max-width: 300px;
-  }
+.section__ways {
+  position: relative;
+  margin-bottom: 60px;
 }
-@media screen and (max-width: 560px) {
-  .pricing__page .section__hero {
-    background-image: url(../img/pricing/hero_mob.png);
-    height: calc(395px - 96px);
-  }
-  .pricing__page .hero__lines {
-    background-image: url(../img/pricing/hero_lines_mob.svg);
-    background-size: contain;
-    -o-background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -khtml-background-size: contain;
-  }
+.ways__title {
+  font-family: 'EkibastuzBlack';
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #4A4A4A;
+  margin-bottom: 75px;
+}
+.ways__container {
+  position: relative;
+  width: 100%;
+  max-width: 975px;
+  height: 440px;
+  background-image: url(../img/pricing/ways.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -khtml-background-size: contain;
+  margin: 0 auto;
+  z-index: 2;
+}
+.ways__block {
+  position: absolute;
+}
+.ways__block-title {
+  font-family: 'EkibastuzBlack';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.ways__block-descr {
+  font-family: Ekibastuz;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6C6C6C;
+}
+.retainer {
+  text-align: right;
+  top: 0;
+  right: 478px;
+}
+.fpp {
+  text-align: left;
+  top: 118px;
+  right: 27px;
+}
+.basis {
+  text-align: right;
+  top: 181px;
+  left: 0;
+}
+.retainer .ways__block-title {
+  color: #26D09D;
+}
+.fpp .ways__block-title {
+  color: #FF48E2;
+}
+.basis .ways__block-title {
+  color: #FFBC31;
+}
+.ways__lines {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -khtml-background-size: contain;
+  background-image: url(../img/pricing/price_lines.svg);
+  height: 500px;
+  bottom: 0;
+  z-index: 1;
 }
 
 .section__plans{
@@ -458,6 +523,15 @@
     padding: 25px;
   }
 }
+@media screen and (max-width: 1220px) {
+  .pricing__page .section__hero {
+    height: calc(495px - 96px);
+    padding-top: 96px;
+  }
+  .pricing__page .hero__descr {
+    max-width: 300px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .plan__lines {
     display: none;
@@ -549,6 +623,46 @@
     border-top: none;
   }
 }
+@media screen and (max-width: 1020px) {
+  .section__ways {
+    padding-bottom: 78px;
+  }
+  .ways__container {
+    max-width: 540px;
+    height: 615px;
+    background-image: url(../img/pricing/ways_mob.svg);
+    background-position: 10px top;
+  }
+  .ways__title {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 60px;
+  }
+  .ways__block {
+    padding: 0 15px 0 100px;
+  }
+  .retainer, .fpp, .basis {
+    text-align: left;
+    right: auto;
+    left: auto;
+  }
+  .retainer {
+    top: 3px;
+  }
+  .fpp {
+    top: 190px;
+  }
+  .basis {
+    top: 375px; 
+  }
+  .ways__block-descr br {
+    display: none;
+  }
+  .ways__lines {
+    height: 250px;
+    bottom: -35px;
+  }
+}
 @media screen and (max-width: 590px) {
   .plans {
     max-width: 260px;
@@ -573,7 +687,33 @@
   }
 }
 @media screen and (max-width: 560px) {
+  .pricing__page .section__hero {
+    background-image: url(../img/pricing/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .pricing__page .hero__lines {
+    background-image: url(../img/pricing/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+  .section__ways {
+    margin-bottom: 30px;
+  }
+  .ways__lines {
+    background-image: url(../img/pricing/price_lines_mob.svg);
+    height: 360px;
+    bottom: 0px;
+  }
   .section__plans {
     margin-bottom: 70px;
+  }
+  .section__plans_title {
+    margin-bottom: 20px;
+  }
+  .radio__switch {
+    margin-bottom: 40px;
   }
 }
