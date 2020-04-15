@@ -369,11 +369,15 @@
     -moz-background-size: contain;
     -khtml-background-size: contain;
   }
+  .section__team {
+    margin-bottom: 60px;
+  }
   .section__reviews {
     margin-bottom: 35px;
   }
   .reviews__container_img {
     height: 300px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 460px) {
