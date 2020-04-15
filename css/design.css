@@ -539,6 +539,7 @@
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 30px;
+    padding: 0 15px;
   }
   .design__descr br {
     display: none;
@@ -603,6 +604,7 @@
   }
   .approach__steps {
     width: calc(100% - 30px);
+    padding: 0 15px;
   }
   .step__block {
     max-width: 100%;
@@ -610,8 +612,8 @@
   .approach__steps_block .step_descr {
     min-width: 300px;
   }
-  .design__page .content {
-    padding: 0 15px;
+  .design__descr {
+    max-width: 375px;
   }
 }
 @media screen and (max-width: 390px) {
@@ -663,9 +665,7 @@
   .step__img_5 .step__img_txt {
     font-size: 10px;
   }
-}
-@media screen and (max-width: 360px) {
-  .approach__steps {
-    width: calc(100% - 10px);
+  .step_descr br {
+    display: none;
   }
 }
