@@ -1,0 +1,42 @@
+/*---------- header ----------*/
+.breeze__page .header.scrolled .header__block_logo:before {
+  background: linear-gradient(94.95deg, #C71DEA 0%, #1E38D7 103.53%);
+}
+.breeze__page .header__menu_line {
+  background: linear-gradient(147.42deg, #c57af3 10.26%, #e0aacd 115.14%);
+}
+.showcase.breeze__page .header__logo span {
+  color: #fff;
+}
+
+/*---------- hero ----------*/
+.breeze__page .section__hero {
+  height: calc(925px - 260px);
+  padding-top: 260px;
+  background-image: url(../img/showcases/breeze/hero.png);
+}
+
+/*---------- footer ----------*/
+.breeze__page .footer {
+  background-image: url(../img/showcases/breeze/footer.svg);
+}
+
+@media screen and (max-width: 600px) {
+  .breeze__page .footer {
+    background-image: url(../img/showcases/breeze/footer_mob.svg);
+  }
+}
+@media screen and (max-width: 560px) {
+  .breeze__page .section__hero {
+    background-image: url(../img/showcases/breeze/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .breeze__page .hero__lines {
+    background-image: url(../img/showcases/breeze/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+}

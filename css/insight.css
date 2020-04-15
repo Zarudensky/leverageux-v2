@@ -1,0 +1,52 @@
+/*---------- header ----------*/
+.insight__page .header.scrolled .header__block_logo:before {
+  background: linear-gradient(94.95deg, #2BBEA4 0%, #3E04BB 103.53%);
+}
+.insight__page .header__menu_line {
+  background: linear-gradient(147.42deg, #ded0ff 10.26%, #68cdbd 115.14%);
+}
+
+.showcase.insight__page .header__btn_om:hover span,
+.showcase.insight__page .header.scrolled .header__btn_om:hover span {
+  background: #fff;
+}
+.showcase.insight__page .btn:hover {
+  color: #00A2B8;
+  background: #fff;
+}
+
+/*---------- hero ----------*/
+.insight__page .section__hero {
+  height: calc(925px - 230px);
+  padding-top: 230px;
+  background-image: url(../img/showcases/insight/hero.png);
+}
+.showcase .hero__title span {
+  font-family: 'Ekibastuz';
+  font-weight: bold;
+}
+
+/*---------- footer ----------*/
+.insight__page .footer {
+  background-image: url(../img/showcases/insight/footer.svg);
+}
+
+@media screen and (max-width: 600px) {
+  .insight__page .footer {
+    background-image: url(../img/showcases/insight/footer_mob.svg);
+  }
+}
+@media screen and (max-width: 560px) {
+  .insight__page .section__hero {
+    background-image: url(../img/showcases/insight/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .insight__page .hero__lines {
+    background-image: url(../img/showcases/insight/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+}

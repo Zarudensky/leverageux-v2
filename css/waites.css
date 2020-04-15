@@ -1,0 +1,85 @@
+/*---------- header ----------*/
+.waites__page .header.scrolled .header__block_logo:before {
+  background: linear-gradient(94.95deg, #E1B118 0%, #D40619 103.53%);
+}
+.waites__page .header__menu_line {
+  background: linear-gradient(147.42deg, #e3bafc 10.26%, #f1d28a 115.14%);
+}
+
+.waites__page .btn {
+  background: #4A4A4A;
+}
+.waites__page .btn:hover {
+  background: #fff;
+  color: #4A4A4A;
+}
+
+/*---------- hero ----------*/
+.waites__page .section__hero {
+  height: calc(925px - 240px);
+  padding-top: 240px;
+  background-image: url(../img/showcases/waites/hero.png);
+}
+.showcase.waites__page .hero__lines {
+  background-image: url(../img/showcases/waites/hero_lines.svg);
+}
+
+/*---------- section__board ----------*/
+.section__updated .section__container_img {
+  background-image: url(../img/showcases/waites/updated.png);
+}
+.section__updated .section__container_text {
+  margin-top: 150px;
+}
+
+.section__alarms .section__container_img {
+  background-image: url(../img/showcases/waites/alarms.png);
+}
+.section__alarms .section__container_text {
+  margin-top: 185px;
+}
+
+.section__equipment .section__container_img {
+  background-image: url(../img/showcases/waites/equipment.png);
+}
+.section__equipment .section__container_text {
+  margin-top: 190px;
+}
+
+.section__system .section__container_img {
+  background-image: url(../img/showcases/waites/system.png);
+}
+.section__system .section__container_text {
+  margin-top: 170px;
+}
+
+/*---------- scrollup ----------*/
+.waites__page .scrollup {
+  background: url(../img/showcases/waites/arrowup.svg) no-repeat center;
+}
+
+/*---------- footer ----------*/
+.waites__page .footer {
+  background-image: url(../img/showcases/waites/footer.svg);
+}
+
+@media screen and (max-width: 600px) {
+  .waites__page .footer {
+    background-image: url(../img/showcases/waites/footer_mob.svg);
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .waites__page .section__hero {
+    background-image: url(../img/showcases/waites/hero_mob.png);
+    height: calc(395px - 96px);
+  }
+  .waites__page .hero__lines {
+    background-image: url(../img/showcases/waites/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+}

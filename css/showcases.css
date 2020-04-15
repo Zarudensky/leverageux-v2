@@ -1,0 +1,143 @@
+/*---------- header ----------*/
+.showcase .header__logo,
+.showcase .header__menu_link a {
+	color: #fff;
+}
+.showcase .header.scrolled .header__menu_link a {
+  color: #A6A6A6;
+}
+
+.showcase .header__btn_om:hover span, 
+.showcase .header.scrolled .header__btn_om:hover span {
+	background: #4A4A4A;
+}
+
+.showcase .header__logo span,
+.showcase .header__menu_link a:hover,
+.showcase .header.scrolled .header__menu_link a:hover {
+  color: #4A4A4A;
+}
+.showcase .header__btn_om span {
+  background: #fff;
+}
+.showcase .btn__back {
+  fill: #A6A6A6;
+}
+.showcase .menu__btn_back:hover .btn__back.active {
+  fill: #4A4A4A;
+}
+
+/*---------- hero ----------*/
+.showcase .hero__lines {
+  background-image: url(../img/showcases/hero_lines.svg);
+}
+.showcase .hero__info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  width: calc(100% - 213px);
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 63px 0 150px;
+}
+.showcase .hero__title {
+	color: #fff;
+	margin-bottom: 50px;
+}
+.showcase .hero__descr {
+	text-transform: none;
+	text-align: start;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  margin: 0;
+}
+
+/*---------- showcase__title ----------*/
+.showcase__title {
+ text-align: center;
+}
+.showcase__title img {
+	margin-bottom: 25px;
+}
+.showcase__title h2 {
+	font-family: 'EkibastuzBlack';
+  font-weight: normal;
+	font-size: 36px;
+	line-height: 36px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+	color: #4A4A4A;
+	margin-bottom: 82px;
+}
+
+/*---------- section__board ----------*/
+.showcase .section__title {
+	font-family: 'EkibastuzBlack';
+  font-weight: normal;
+	font-size: 33px;
+	line-height: 43px;
+	color: #4A4A4A;
+	margin-bottom: 35px;
+}
+.section__description {
+  font-size: 24px;
+  line-height: 28px;
+  color: #828282;
+}
+
+/*---------- footer ----------*/
+.showcase .footer__link,
+.showcase .footer__logo,
+.showcase .contacts__email {
+	color: #fff;
+}
+.showcase .contacts__block p {
+	opacity: 0.4;
+}
+.showcase .footer__line {
+  background: rgba(255, 255, 255, 0.25);
+}
+.showcase .footer__logo span {
+  color: #fff;
+}
+
+@media screen and (max-width: 1260px) {
+  .showcase .section__title {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .showcase .section__description {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 1220px) {
+	.showcase .header__menu_link a {
+    color: #A6A6A6;
+	}
+
+	.hero__info {
+		width: calc(100% - 15px);
+    padding: 0 0 0 15px;
+	}
+	.showcase .hero__descr br {
+		display: inline;
+	}
+}
+@media screen and (max-width: 960px) {
+	.showcase .section__title {
+		margin-bottom: 10px;
+	}
+	.showcase__title img {
+		width: 30px;
+		margin-bottom: 20px;
+	}
+	.showcase__title h2 {
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 40px;
+	}
+}

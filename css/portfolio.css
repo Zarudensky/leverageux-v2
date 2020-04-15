@@ -3,20 +3,6 @@
   padding-top: 206px;
   background-image: url(../img/portfolio/hero.png);
 }
-.section__container_img {
-  background-repeat: no-repeat;
-  background-size: contain;
-  -o-background-size: contain;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -khtml-background-size: contain;
-}
-.section__board-right .section__container_img {
-  background-position: right;
-}
-.section__board-left .section__container_img {
-  background-position: left;
-}
 .section__plants .section__container_img {
   background-image: url(../img/portfolio/plants.png);
 }
