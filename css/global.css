@@ -1101,7 +1101,6 @@ textarea:focus {
   }
   .header__block_menu.closed {
     display: flex;
-    align-items: center;
     position: absolute;
     right: -294px;
     width: 294px;
