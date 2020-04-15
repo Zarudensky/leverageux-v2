@@ -100,6 +100,8 @@
   margin-bottom: 35px;
 }
 .persone_photo {
+  width: 200px;
+  height: auto;
   margin-bottom: 26px;
 }
 .persone__name {
@@ -344,6 +346,10 @@
   .persone_6 {order: 6}
   .persone_7 {order: 7}
   .persone_8 {order: 8}
+  .persone_9 {order: 11}
+  .persone_10 {order: 9}
+  .persone_11 {order: 10}
+  .persone_12 {order: 12}
 }
 @media screen and (max-width: 600px) {
   .section__about_container {
