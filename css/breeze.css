@@ -14,6 +14,28 @@
   background-image: url(../img/showcases/breeze/hero.png);
 }
 
+/*---------- section__board ----------*/
+.section__updated .section__container_img {
+  background-image: url(../img/showcases/breeze/updated.png);
+}
+.section__updated .section__container_text {
+  margin-top: 150px;
+}
+
+.section__visual .section__container_img {
+  background-image: url(../img/showcases/breeze/visual.png);
+}
+.section__visual .section__container_text {
+  margin-top: 110px;
+}
+
+.section__driven .section__container_img {
+  background-image: url(../img/showcases/breeze/driven.png);
+}
+.section__driven .section__container_text {
+  margin-top: 85px;
+}
+
 /*---------- footer ----------*/
 .breeze__page .footer {
   background-image: url(../img/showcases/breeze/footer.svg);
