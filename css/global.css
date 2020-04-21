@@ -1523,7 +1523,7 @@ textarea:focus {
     max-width: 314px;
   }
   .img__block.img__lines {
-    height: 165px;
+    height: 175px;
     background-size: 200%;
     -o-background-size: 200%;
     -webkit-background-size: 200%;
@@ -1547,6 +1547,9 @@ textarea:focus {
   .header.scrolled .header__btn_ep {
     display: none;
   }
+  .img__block.img__lines {
+    height: 165px;
+  }
   .footer__lines {
     top: 0;
     background-position: 32% 75%;
@@ -1559,7 +1562,7 @@ textarea:focus {
 }
 @media screen and (max-width: 400px) {
   .img__block.img__lines {
-    height: 150px;
+    height: 155px;
   }
   .modal-content {
     width: calc(90% - 50px);

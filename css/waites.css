@@ -51,6 +51,11 @@
   margin-top: 170px;
 }
 
+/*---------- section__results ----------*/
+.results__block-final h3 {
+  color: #FFBC31;
+}
+
 /*---------- scrollup ----------*/
 .waites__page .scrollup {
   background: url(../img/showcases/waites/arrowup.svg) no-repeat center;

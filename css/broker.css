@@ -33,6 +33,11 @@
   margin-top: 80px;
 }
 
+/*---------- section__results ----------*/
+.results__block-final h3 {
+  color: #00B8AD;
+}
+
 /*---------- footer ----------*/
 .broker__page .footer {
   background-image: url(../img/showcases/broker/footer.svg);
