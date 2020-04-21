@@ -28,6 +28,9 @@
 }
 
 /*---------- hero ----------*/
+.showcase .section__hero {
+	height: 1200px;
+}
 .showcase .hero__lines {
   background-image: url(../img/showcases/hero_lines.svg);
 }
@@ -37,7 +40,7 @@
 	align-items: flex-start;
   width: calc(100% - 213px);
   max-width: 1920px;
-  margin: 0 auto;
+  margin: 240px auto 0;
   padding: 0 63px 0 150px;
 }
 .showcase .hero__title {
@@ -103,6 +106,21 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1650px) {
+	.showcase .section__hero {
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1550px) {
+	.showcase .section__hero {
+		height: 950px;
+	}
+}
+@media screen and (max-width: 1450px) {
+	.showcase .section__hero {
+		height: 900px;
+	}
+}
 @media screen and (max-width: 1360px) {
 	.showcase .hero__info {
     width: calc(100% - 30px);
@@ -134,10 +152,12 @@
 	}
 }
 @media screen and (max-width: 1160px) {
-	body.showcase .section__hero {
-		height: calc(645px - 125px);
-    padding-top: 125px;
+	.showcase .section__hero {
+		height: 645px;
     background-position: 25%;
+	}
+	.showcase .hero__info {
+	  margin: 125px auto 0;
 	}
 	.showcase .hero__title {
     margin-bottom: 45px;
@@ -169,13 +189,13 @@
 	}
 }
 @media screen and (max-width: 860px) {
-	body.showcase .section__hero {
+	.showcase .section__hero {
     background-position: 10%;
 	}
 }
 @media screen and (max-width: 560px) {
-	body.showcase .section__hero {
-    height: calc(850px - 125px);
+	.showcase .section__hero {
+    height: 850px;
     background-position: bottom;
 	}
 	.showcase .hero__lines {
@@ -194,18 +214,18 @@
   }
 }
 @media screen and (max-width: 500px) {
-	body.showcase .section__hero {
-    height: calc(790px - 125px);
+	.showcase .section__hero {
+    height: 790px;
   }
 }
 @media screen and (max-width: 460px) {
-	body.showcase .section__hero {
-    height: calc(750px - 125px);
+	.showcase .section__hero {
+    height: 750px;
   }
 }
 @media screen and (max-width: 400px) {
-	body.showcase .section__hero {
-    height: calc(675px - 125px);
+	.showcase .section__hero {
+    height: 675px;
   }
   .showcase .hero__info {
     max-width: 220px;
@@ -222,8 +242,8 @@
 	}
 }
 @media screen and (max-width: 370px) {
-	body.showcase .section__hero {
-    height: calc(645px - 125px);
+	.showcase .section__hero {
+    height: 645px;
   }
 }
 

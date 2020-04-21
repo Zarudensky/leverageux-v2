@@ -1010,16 +1010,19 @@ textarea:focus {
 }
 
 @media screen and (max-width: 1626px) {
+  .hero__lines {
+    height: 400px;
+  }
   .footer {
     height: 925px;
-  }
-  .hero__lines {
-    height: 361px;
   }
 }
 @media screen and (max-width: 1445px) {
   .footer {
     height: 950px;
+  }
+  .hero__lines {
+    height: 360px;
   }
 }
 

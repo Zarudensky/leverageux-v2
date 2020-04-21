@@ -11,8 +11,6 @@
 
 /*---------- hero ----------*/
 .breeze__page .section__hero {
-  height: calc(925px - 260px);
-  padding-top: 260px;
   background-image: url(../img/showcases/breeze/hero.png);
 }
 
@@ -29,14 +27,8 @@
 @media screen and (max-width: 560px) {
   .breeze__page .section__hero {
     background-image: url(../img/showcases/breeze/hero_mob.png);
-    height: calc(395px - 96px);
   }
   .breeze__page .hero__lines {
     background-image: url(../img/showcases/breeze/hero_lines_mob.svg);
-    background-size: contain;
-    -o-background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -khtml-background-size: contain;
   }
 }

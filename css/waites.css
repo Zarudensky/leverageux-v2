@@ -16,8 +16,6 @@
 
 /*---------- hero ----------*/
 .waites__page .section__hero {
-  height: calc(925px - 240px);
-  padding-top: 240px;
   background-image: url(../img/showcases/waites/hero.png);
 }
 .showcase.waites__page .hero__lines {
