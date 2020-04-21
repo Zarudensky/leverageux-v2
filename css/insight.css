@@ -56,6 +56,12 @@
   background-image: url(../img/showcases/insight/footer.svg);
 }
 
+@media screen and (max-width: 960px) {
+  .section__driven .img__block.img__lines {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .insight__page .footer {
     background-image: url(../img/showcases/insight/footer_mob.svg);

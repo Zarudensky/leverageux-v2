@@ -11,6 +11,11 @@
   background-image: url(../img/showcases/breeze/hero.png);
 }
 
+/*---------- section__summary ----------*/
+.breeze__page .summary__block-info a {
+  color: #C82DF3;
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/breeze/updated.png);

@@ -22,6 +22,27 @@
   background-image: url(../img/showcases/waites/hero_lines.svg);
 }
 
+/*---------- section__summary ----------*/
+.waites__page .summary__block-info a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'EkibastuzBlack';
+  font-weight: normal;
+  width: 230px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: #4A4A4A;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.32);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/waites/updated.png);
@@ -64,6 +85,12 @@
 /*---------- footer ----------*/
 .waites__page .footer {
   background-image: url(../img/showcases/waites/footer.svg);
+}
+
+@media screen and (max-width: 960px) {
+  .section__system .img__block.img__lines {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {

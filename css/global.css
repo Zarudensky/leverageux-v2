@@ -18,7 +18,16 @@ body {
   cursor: default;
   overflow-x: hidden;
 }
-
+a {
+  -webkit-user-select: none;
+  -moz-user-select:    none;
+  -ms-user-select:     none;
+  user-select:         none;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  -webkit-tap-highlight-color: transparent;
+}
 .menu__back {
   display: none;
   content: ' ';
