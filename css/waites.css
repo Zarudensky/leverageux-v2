@@ -72,14 +72,8 @@
 @media screen and (max-width: 560px) {
   .waites__page .section__hero {
     background-image: url(../img/showcases/waites/hero_mob.png);
-    height: calc(395px - 96px);
   }
-  .waites__page .hero__lines {
+  .showcase.waites__page .hero__lines {
     background-image: url(../img/showcases/waites/hero_lines_mob.svg);
-    background-size: contain;
-    -o-background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -khtml-background-size: contain;
   }
 }

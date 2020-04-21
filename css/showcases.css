@@ -103,6 +103,12 @@
   color: #fff;
 }
 
+@media screen and (max-width: 1360px) {
+	.showcase .hero__info {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+	}
+}
 @media screen and (max-width: 1260px) {
   .showcase .section__title {
     font-size: 26px;
@@ -127,6 +133,27 @@
 		display: inline;
 	}
 }
+@media screen and (max-width: 1160px) {
+	body.showcase .section__hero {
+		height: calc(645px - 125px);
+    padding-top: 125px;
+    background-position: 25%;
+	}
+	.showcase .hero__title {
+    margin-bottom: 45px;
+	}
+	.hero__title img {
+		height: 40px;
+	}
+	.showcase .hero__descr {
+		font-family: Ekibastuz;
+		font-style: normal;
+		font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+		letter-spacing: 0.02em;
+	}
+}
 @media screen and (max-width: 960px) {
 	.showcase .section__title {
 		margin-bottom: 10px;
@@ -141,3 +168,64 @@
 		margin-bottom: 40px;
 	}
 }
+@media screen and (max-width: 860px) {
+	body.showcase .section__hero {
+    background-position: 10%;
+	}
+}
+@media screen and (max-width: 560px) {
+	body.showcase .section__hero {
+    height: calc(850px - 125px);
+    background-position: bottom;
+	}
+	.showcase .hero__lines {
+  	background-image: url(../img/showcases/hero_lines_mob.svg);
+    background-size: contain;
+    -o-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -khtml-background-size: contain;
+  }
+  .showcase .hero__info {
+  	align-items: center;
+  }
+  .showcase .hero__descr {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+	body.showcase .section__hero {
+    height: calc(790px - 125px);
+  }
+}
+@media screen and (max-width: 460px) {
+	body.showcase .section__hero {
+    height: calc(750px - 125px);
+  }
+}
+@media screen and (max-width: 400px) {
+	body.showcase .section__hero {
+    height: calc(675px - 125px);
+  }
+  .showcase .hero__info {
+    max-width: 220px;
+  }
+  .showcase .hero__title {
+    margin-bottom: 30px;
+	}
+  .showcase .hero__descr {
+    font-size: 14px;
+    line-height: 16px;
+	}
+	.showcase .hero__descr br {
+		display: none;
+	}
+}
+@media screen and (max-width: 370px) {
+	body.showcase .section__hero {
+    height: calc(645px - 125px);
+  }
+}
+
+
+
