@@ -1,0 +1,53 @@
+/*---------- header ----------*/
+.broker__page .header.scrolled .header__block_logo:before {
+  background: linear-gradient(94.95deg, #0BA96D 0%, #02234A 103.53%);
+}
+.broker__page .header__menu_line {
+  background: linear-gradient(147.42deg, #50b9ae 10.26%, #9bc496 115.14%);
+}
+
+/*---------- hero ----------*/
+.broker__page .section__hero {
+  background-image: url(../img/showcases/broker/hero.png);
+}
+
+/*---------- section__board ----------*/
+.section__updated .section__container_img {
+  background-image: url(../img/showcases/broker/updated.png);
+}
+.section__updated .section__container_text {
+  margin-top: 150px;
+}
+
+.section__visual .section__container_img {
+  background-image: url(../img/showcases/broker/visual.png);
+}
+.section__visual .section__container_text {
+  margin-top: 110px;
+}
+
+.section__driven .section__container_img {
+  background-image: url(../img/showcases/broker/driven.png);
+}
+.section__driven .section__container_text {
+  margin-top: 80px;
+}
+
+/*---------- footer ----------*/
+.broker__page .footer {
+  background-image: url(../img/showcases/broker/footer.svg);
+}
+
+@media screen and (max-width: 600px) {
+  .broker__page .footer {
+    background-image: url(../img/showcases/broker/footer_mob.svg);
+  }
+}
+@media screen and (max-width: 560px) {
+  .broker__page .section__hero {
+    background-image: url(../img/showcases/broker/hero_mob.png);
+  }
+  .broker__page .hero__lines {
+    background-image: url(../img/showcases/broker/hero_lines_mob.svg);
+  }
+}

@@ -5,9 +5,6 @@
 .breeze__page .header__menu_line {
   background: linear-gradient(147.42deg, #c57af3 10.26%, #e0aacd 115.14%);
 }
-.showcase.breeze__page .header__logo span {
-  color: #fff;
-}
 
 /*---------- hero ----------*/
 .breeze__page .section__hero {
@@ -19,7 +16,7 @@
   background-image: url(../img/showcases/breeze/updated.png);
 }
 .section__updated .section__container_text {
-  margin-top: 150px;
+  margin-top: 140px;
 }
 
 .section__visual .section__container_img {
@@ -33,7 +30,7 @@
   background-image: url(../img/showcases/breeze/driven.png);
 }
 .section__driven .section__container_text {
-  margin-top: 85px;
+  margin-top: 80px;
 }
 
 /*---------- footer ----------*/

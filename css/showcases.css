@@ -1,5 +1,6 @@
 /*---------- header ----------*/
 .showcase .header__logo,
+.showcase .header__logo span,
 .showcase .header__menu_link a {
 	color: #fff;
 }
@@ -12,7 +13,6 @@
 	background: #4A4A4A;
 }
 
-.showcase .header__logo span,
 .showcase .header__menu_link a:hover,
 .showcase .header.scrolled .header__menu_link a:hover {
   color: #4A4A4A;
