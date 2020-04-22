@@ -16,6 +16,11 @@
   color: #C82DF3;
 }
 
+/*---------- section__comment ----------*/
+.section__comment {
+  background: linear-gradient(234.91deg, #C71DEA -1.74%, #1E38D7 92.3%);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/breeze/updated.png);

@@ -24,6 +24,11 @@
   font-weight: bold;
 }
 
+/*---------- section__comment ----------*/
+.section__comment {
+  background: linear-gradient(234.91deg, #0CBDA3 -1.74%, #3E0DBA 92.3%);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/insight/updated.png);
@@ -54,12 +59,6 @@
 /*---------- footer ----------*/
 .insight__page .footer {
   background-image: url(../img/showcases/insight/footer.svg);
-}
-
-@media screen and (max-width: 960px) {
-  .section__driven .img__block.img__lines {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 600px) {

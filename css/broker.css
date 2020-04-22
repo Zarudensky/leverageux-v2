@@ -11,6 +11,11 @@
   background-image: url(../img/showcases/broker/hero.png);
 }
 
+/*---------- section__comment ----------*/
+.section__comment {
+  background: linear-gradient(234.91deg, #0BAA6D -1.74%, #04234A 92.3%);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/broker/updated.png);

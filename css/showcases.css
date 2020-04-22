@@ -171,6 +171,46 @@
 	height: 45px;
 }
 
+/*---------- section__coment ----------*/
+.section__comment {
+	position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 200px 15px;
+  width: calc(100% - 30px);
+}
+.comment {
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: capitalize;
+	color: #fff;
+	margin: 15px auto;
+	z-index: 2;
+}
+.comment__lines {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -khtml-background-size: contain;
+  background-image: url(../img/showcases/comment_lines.svg);
+  z-index: 1;
+}
 /*---------- section__board ----------*/
 .showcase .section__title {
 	font-family: 'EkibastuzBlack';
@@ -314,6 +354,7 @@
 .author .position {
 	font-family: 'Ekibastuz';
 	font-weight: normal;
+	white-space: nowrap;
 }
 
 /*---------- footer ----------*/
@@ -449,6 +490,9 @@
 	}
 }
 @media screen and (max-width: 1060px) {
+	.comment br { 
+		display: none;
+	}
 	.section__results {
     margin-bottom: 75px;
 	}
@@ -522,7 +566,23 @@
 	}
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 760px) {
+	.section__comment {
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    padding: 100px 15px;
+	}
+	.comment__lines {
+		background-position: right;
+		background-size: auto;
+    -o-background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -khtml-background-size: auto;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.section__results {
     margin-top: 65px;
 	}
