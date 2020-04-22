@@ -21,6 +21,28 @@
   background: linear-gradient(234.91deg, #C71DEA -1.74%, #1E38D7 92.3%);
 }
 
+/*---------- section__goals ----------*/
+.goals__block-project h3:after,
+.goals__block-project h3:before,
+.goals__block-project .goal:last-child:before { 
+  background: #E560FF;
+}
+.goals__block-project .goal {
+  border-right: 1px solid #E560FF;
+  padding-bottom: 80px;
+}
+.goals__block-business .goal {
+  padding-bottom: 80px;
+}
+.goals__block-business .goal_1 {
+  min-height: 68px;
+  padding-top: 10px;
+}
+.goals__block-project .goal:after {
+  content: url(../img/showcases/breeze/goal.svg);
+}
+
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/breeze/updated.png);

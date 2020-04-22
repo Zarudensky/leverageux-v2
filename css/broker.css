@@ -16,6 +16,26 @@
   background: linear-gradient(234.91deg, #0BAA6D -1.74%, #04234A 92.3%);
 }
 
+/*---------- section__goals ----------*/
+.goals__block-project h3:after,
+.goals__block-project h3:before,
+.goals__block-project .goal:last-child:before { 
+  background: #00C59E;
+}
+.goals__block-project .goal {
+  border-right: 1px solid #00C59E;
+  padding-bottom: 75px;
+}
+.goals__block-business .goal {
+  padding-bottom: 80px;
+}
+.goals__block-business .goal_2:after {
+  top: 2px;
+}
+.goals__block-project .goal:after {
+  content: url(../img/showcases/insight/goal.svg);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/broker/updated.png);

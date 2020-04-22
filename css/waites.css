@@ -51,6 +51,29 @@
   background-image: url(../img/showcases/waites/comment_lines.svg);
 }
 
+/*---------- section__goals ----------*/
+.goals__block-project h3:after,
+.goals__block-project h3:before,
+.goals__block-project .goal:last-child:before { 
+  background: #FFBC31;
+}
+.goals__block-project .goal {
+  border-right: 1px solid #FFBC31;
+  padding-bottom: 40px;
+}
+.goals__block-business .goal {
+  padding-bottom: 125px;
+}
+.goals__block-business .goal_2:after {
+  top: 15px;
+}
+.goals__block-business .goal_3:after {
+  top: -3px;
+}
+.goals__block-project .goal:after {
+  content: url(../img/showcases/waites/goal.svg);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/waites/updated.png);
