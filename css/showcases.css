@@ -347,6 +347,33 @@
 	padding-bottom: 0;
 }
 
+/*---------- section__challenges ----------*/
+.section__challenges {
+	margin-bottom: 120px;
+}
+.challenges__container {
+	position: relative;
+}
+.challenge {
+ 	position: absolute;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: 0.01em;
+	text-transform: capitalize;
+	color: #828282;
+}
+.challenge__left {
+	text-align: right;
+}
+.challenge__right {
+	text-align: left;
+}
+.rocket {
+
+}
+
 /*---------- section__board ----------*/
 .showcase .section__title {
 	font-family: 'EkibastuzBlack';
@@ -625,6 +652,41 @@
 		height: 20px;
 	}
 }
+@media screen and (max-width: 1100px) {
+	.section__challenges {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+	.challenges__container {
+		display: flex;
+    flex-direction: column;
+		padding: 0 15px;
+		margin: 0 auto;
+	}
+	.rocket {
+		display: none;
+	}
+	.challenges__container .challenge {
+		position: relative;
+		top: auto;
+		left: auto;
+		right: auto;
+		text-align: left;
+		padding-left: 35px;
+		margin-bottom: 44px;
+	}
+	.challenge:before {
+		content: '';
+		position: absolute;
+		top: calc(50% - 7px);
+		left: 0;
+		display: block;
+		width: 14px;
+		height: 14px;
+		border-radius: 50%;
+	}
+}
 @media screen and (max-width: 1060px) {
 	.comment br { 
 		display: none;
@@ -669,6 +731,10 @@
 	.goals__block {
     width: auto;
     margin: 0 auto;
+  }
+  .goals__block h3 {
+    font-size: 24px;
+    line-height: 24px;
   }
   .goals__block-project {
   	padding: 0 30px 0 15px;
@@ -800,6 +866,7 @@
 	.showcase .section__hero {
     height: 790px;
   }
+  .challenge br,
   .goals__block p br {
   	display: none;
   }
@@ -838,10 +905,3 @@
     height: 645px;
   }
 }
-@media screen and (max-width: 350px) {
-	.goals__block h3 {
-    font-size: 32px;
-  }
-}
-
-

@@ -74,6 +74,28 @@
   content: url(../img/showcases/waites/goal.svg);
 }
 
+/*---------- section__challenges ----------*/
+.challenge_1 {
+  top: 415px;
+  left: calc(50% - 540px);
+}
+.challenge_2 {
+  top: 352px;
+  right: calc(50% - 536px);
+}
+.challenge_3 {
+  top: 242px;
+  left: calc(50% - 500px);
+}
+.challenge_4 {
+  top: 210px;
+  right: calc(50% - 408px);
+}
+.challenge_5 {
+  top: 124px;
+  left: calc(50% - 380px);
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/waites/updated.png);
@@ -116,6 +138,24 @@
 /*---------- footer ----------*/
 .waites__page .footer {
   background-image: url(../img/showcases/waites/footer.svg);
+}
+
+@media screen and (max-width: 1100px) {
+  .challenge_1:before {
+    background: #F9AC58;
+  }
+  .challenge_2:before {
+    background: #F7A255;
+  }
+  .challenge_3:before {
+    background: #F2844D;
+  }
+  .challenge_4:before {
+    background: #F07B4A;
+  }
+  .challenge_5:before {
+    background: #EA5A54;
+  }
 }
 
 @media screen and (max-width: 960px) {
