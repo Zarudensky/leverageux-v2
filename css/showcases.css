@@ -473,7 +473,7 @@
 .teg.green:before {
   background: #00C297;
 }
-.showcase__title {
+.section__approach .showcase__title {
   margin-bottom: 100px;
 }
 .approach__steps {
@@ -752,7 +752,7 @@
     padding: 45px 0 70px;
     margin-bottom: 60px;
 	}
-	.section__approach .showcase__title {
+	.section__approach div.showcase__title {
 		margin: 0;
 	}
 	.approach__container {
