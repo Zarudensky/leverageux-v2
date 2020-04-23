@@ -96,6 +96,69 @@
   left: calc(50% - 380px);
 }
 
+/*---------- section__approach ----------*/
+.showcase__title {
+  margin-bottom: 112px;
+}
+.title__line-approach {
+  background: #DB6518;
+}
+.approach__steps {
+  margin-left: -90px;
+  margin-bottom: 40px;
+}
+.step_1 {
+  left: 8%;
+  bottom: -9%;
+  align-items: flex-end;
+  text-align: left;
+}
+.step_1:before {
+  content: url(../img/showcases/step_1.svg);
+  margin-right: 18px;
+}
+.step_2 {
+  top: -21.9%;
+  left: -7%;
+  align-items: flex-start;
+  text-align: right;
+}
+.step_2:after {
+  content: url(../img/showcases/step_2.svg);
+  margin-left: -28px;
+}
+.step_3 {
+  top: -27.5%;
+  left: 39%;
+  align-items: flex-start;
+  text-align: left;
+}
+.step_3:before {
+  content: url(../img/showcases/step_3.svg);
+  margin-right: -20px;
+}
+.step_4 {
+  left: 57.7%;
+  bottom: -10.5%;
+  align-items: flex-end;
+  text-align: left;
+}
+.step_4:before {
+  content: url(../img/showcases/waites/step_4.svg);
+  margin-right: -30px;
+}
+.step_5 {
+  top: -7.5%;
+  left: 80%;
+  align-items: flex-start;
+  text-align: left;
+}
+.step_5:before {
+  content: url(../img/showcases/waites/step_5.svg);
+  margin-right: -10px;
+  margin-top: 14px;
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/waites/updated.png);

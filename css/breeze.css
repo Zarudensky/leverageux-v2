@@ -59,6 +59,12 @@
   top: 118px;
   left: calc(50% - 410px);
 }
+
+/*---------- section__approach ----------*/
+.title__line-approach {
+  background: #6C54E3;
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/breeze/updated.png);

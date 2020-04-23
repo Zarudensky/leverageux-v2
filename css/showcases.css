@@ -370,8 +370,155 @@
 .challenge__right {
 	text-align: left;
 }
-.rocket {
 
+/*---------- section__approach ----------*/
+.section__approach {
+	display: flex;
+  flex-direction: column;
+	background: #EDEDED;
+	padding: 90px 0;
+	margin-bottom: 90px;
+}
+.section__approach .showcase__title h2 {
+	margin-bottom: 15px;
+}
+.title__line-approach {
+	width: 18px;
+	height: 2px;
+	margin-bottom: 15px;
+}
+.approach__descr {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #4A4A4A;
+	margin-bottom: 35px;
+}
+.approach__container {
+	margin: 0 auto;
+}
+.approach__steps {
+	position: relative;
+}
+.approach__steps_block {
+  position: absolute;
+  display: flex;
+}
+.step__block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 360px;
+}
+.step__number {
+  display: none;
+}
+.step__title {
+  font-family: 'EkibastuzBlack';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #4A4A4A;
+  margin-bottom: 5px;
+}
+.step_descr {
+  width: 100%;
+  min-width: 330px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  color: #6C6C6C;
+  margin-bottom: 7px;
+}
+.step_tegs {
+  display: flex;
+}
+.step_2 .step_tegs {
+  justify-content: flex-end;
+}
+.teg {
+  display: flex;
+  font-family: 'EkibastuzBlack';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #4A4A4A;
+  margin-right: 10px;
+}
+.teg.green {
+  margin-right: 0;
+}
+.teg:before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.teg.purple:before {
+  background: #AB34F4;
+}
+.teg.yellow:before {
+  background: #FFC959;
+}
+.teg.pink:before {
+  background: #FF4E83;
+}
+.teg.green:before {
+  background: #00C297;
+}
+.showcase__title {
+  margin-bottom: 100px;
+}
+.approach__steps {
+  margin-left: -106px;
+  margin-bottom: 15px;
+}
+.step_1 {
+  left: 8.7%;
+  bottom: -4%;
+  align-items: flex-end;
+  text-align: left;
+}
+.step_1:before {
+  content: url(../img/showcases/step_1.svg);
+  margin-right: 18px;
+}
+.step_2 {
+  top: -8.9%;
+  left: -7%;
+  align-items: flex-start;
+  text-align: right;
+}
+.step_2:after {
+  content: url(../img/showcases/step_2.svg);
+  margin-left: -28px;
+}
+.step_3 {
+  top: -17.5%;
+  left: 51%;
+  align-items: flex-start;
+  text-align: left;
+}
+.step_3:before {
+  content: url(../img/showcases/step_3.svg);
+  margin-right: -20px;
+}
+.step_4 {
+  left: 93.2%;
+  bottom: 24.5%;
+  align-items: flex-start;
+  text-align: left;
+}
+.step_4:before {
+  content: url(../img/showcases/step_4.svg);
+  margin-right: 18px;
 }
 
 /*---------- section__board ----------*/
@@ -600,6 +747,53 @@
 		display: inline;
 	}
 }
+@media screen and (max-width: 1200px) {
+	.section__approach {
+    padding: 45px 0 70px;
+    margin-bottom: 60px;
+	}
+	.section__approach .showcase__title {
+		margin: 0;
+	}
+	.approach__container {
+		width: calc(100% - 30px);
+		padding: 0 15px;
+	}
+	.approach__descr {
+		padding: 0 15px;
+	}
+	.approach__container .approach__steps {
+    margin: 0;
+	}
+	.approach__steps .steps__img {
+    padding: 0;
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 30px;
+	}
+	.approach__steps .approach__steps_block {
+		position: relative;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		right: auto;
+	}
+	.approach__steps .approach__steps_block:before,
+	.approach__steps .approach__steps_block:after  {
+		display: none;
+	}
+	.step__block {
+		align-items: flex-start;
+		margin: 0 auto 38px;
+	}
+	.step__number {
+		display: inline;
+	}
+	.step__title,
+	.step_descr {
+		text-align: start;
+	}
+}
 @media screen and (max-width: 1160px) {
 	.showcase .section__hero {
 		height: 645px;
@@ -815,7 +1009,11 @@
     -khtml-background-size: auto;
 	}
 }
-
+@media screen and (max-width: 760px) {
+.approach__descr br {
+		display: none;
+	}
+}
 @media screen and (max-width: 600px) {
 	.section__results {
     margin-top: 65px;
@@ -899,6 +1097,14 @@
 	.review {
     text-align: left;
   }
+}
+@media screen and (max-width: 375px) {
+	.step_descr {
+		min-width: auto;
+	}
+	.step_descr br {
+		display: none;
+	}
 }
 @media screen and (max-width: 370px) {
 	.showcase .section__hero {

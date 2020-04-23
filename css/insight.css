@@ -63,6 +63,11 @@
   left: calc(50% - 375px);
 }
 
+/*---------- section__approach ----------*/
+.title__line-approach {
+  background: #0095B6;
+}
+
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
   background-image: url(../img/showcases/insight/updated.png);
