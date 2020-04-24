@@ -100,15 +100,15 @@
 				<ul class="radio__switch">
 				  <li class="radio__switch-item">
 				    <input class="radio__switch-input" type="radio" name="radioButton" id="radio1" checked>
-				    <label class="radio__switch-label label1" for="radio1"><span class="rsl__txt-desk">Desktop</span></label>
+				    <label class="radio__switch-label label1" for="radio1"><span class="rsl__txt-mob">Mobile</span></label>
 				  </li>
 				  <li class="radio__switch-item">
 				    <input class="radio__switch-input" type="radio" name="radioButton" id="radio2">
-				    <label class="radio__switch-label label2" for="radio2"><span class="rsl__txt-mob">Mobile</span></label>
+				    <label class="radio__switch-label label2" for="radio2"><span class="rsl__txt-desk">Desktop</span></label>
 				    <div aria-hidden="true" class="radio__switch-marker"></div>
 				  </li>
 				</ul>
-				<div class="plans desktop__price">
+				<div class="plans mobile__price">
 					<div class="titles">
 						<h6>Number of pages</h6>
 						<h6>Business requirements review</h6>
@@ -118,7 +118,7 @@
 						<h6>Wireframes</h6>
 						<h6>App visual identity (Overall<br>look and feel, colors,<br>typography, iconography</h6>
 						<h6>UI Animations</h6>
-						<h6>Responsive Design</h6>
+						<h6 class="delete_for_moble">Responsive Design</h6>
 						<h6>Interactions design</h6>
 						<h6>Clickable prototype</h6>
 						<h6>Development Support</h6>
@@ -161,9 +161,9 @@
 							</div>
 							<div class="plan__block_info">
 								<h6 class="info__title">UI Animations</h6>
-								<div class="info__check text">Up to 4 animations</div>
+								<div class="info__check none"></div>
 							</div>
-							<div class="plan__block_info">
+							<div class="plan__block_info delete_for_moble">
 								<h6 class="info__title">Responsive Design</h6>
 								<div class="info__check none"></div>
 							</div>
@@ -218,7 +218,7 @@
 								<h6 class="info__title">UI Animations</h6>
 								<div class="info__check none"></div>
 							</div>
-							<div class="plan__block_info">
+							<div class="plan__block_info delete_for_moble">
 								<h6 class="info__title">Responsive Design</h6>
 								<div class="info__check check"></div>
 							</div>
@@ -273,7 +273,7 @@
 								<h6 class="info__title">UI Animations</h6>
 								<div class="info__check text">optional</div>
 							</div>
-							<div class="plan__block_info">
+							<div class="plan__block_info delete_for_moble">
 								<h6 class="info__title">Responsive Design</h6>
 								<div class="info__check text">optional</div>
 							</div>
@@ -292,7 +292,7 @@
 							<button class="btn btn__buy btn__business" type="submit">Buy Now</button>
 						</div>
 					</div>
-					<div class="plan__lines"></div>
+					<!-- <div class="plan__lines"></div> -->
 					<div id="buyModal" class="modal">
 						<div class="modal-content">
 							<span class="close">

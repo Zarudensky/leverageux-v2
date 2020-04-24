@@ -168,10 +168,10 @@
   transition: all 0.3s;
 }
 .rsl__txt-desk {
-  padding-left: 7px;
+  padding-right: 4px;
 }
 .rsl__txt-mob {
-  padding-right: 6px;
+  padding-left: 6px;
 }
 .radio__switch-input {
   margin: 0;
@@ -212,6 +212,8 @@
 .mobile__price .mobile {
   display: inline-flex;
 }
+.mobile__price .titles h6.delete_for_moble,
+.mobile__price .delete_for_moble,
 .mobile__price .desktop,
 .desktop__price .mobile {
   display: none;
@@ -234,7 +236,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 200px;
-  padding-top: 342px;
+  padding-top: 310px;
   margin-right: 30px;
   align-items: flex-end;
 }
