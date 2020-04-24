@@ -1,6 +1,6 @@
 .pricing__page .section__hero {
-  height: calc(635px - 205px);
-  padding-top: 205px;
+  height: calc(635px - 210px);
+  padding-top: 210px;
   background-image: url(../img/pricing/hero.png);
 }
 

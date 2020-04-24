@@ -1,6 +1,6 @@
 .about__page .section__hero {
-  height: calc(648px - 212px);
-  padding-top: 212px;
+  height: calc(648px - 210px);
+  padding-top: 210px;
   background-image: url(../img/about/hero.png);
 }
 

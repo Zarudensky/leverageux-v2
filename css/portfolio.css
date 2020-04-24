@@ -1,6 +1,6 @@
 .portfolio__page .section__hero {
-  height: calc(700px - 206px);
-  padding-top: 206px;
+  height: calc(700px - 210px);
+  padding-top: 210px;
   background-image: url(../img/portfolio/hero.png);
 }
 .section__plants .section__container_img {
