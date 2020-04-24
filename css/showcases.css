@@ -1,4 +1,7 @@
 /*---------- header ----------*/
+.link__line {
+  background: #fff;
+}
 .showcase .header__logo,
 .showcase .header__logo span,
 .showcase .header__menu_link a {
