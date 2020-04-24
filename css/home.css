@@ -591,18 +591,45 @@
   color: #4A4A4A;
   margin-bottom: 68px;
 }
-.section__projects .section__block {
-  max-width: 100%;
-  justify-content: center;
+.slick {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
 }
-.section__block .pr {
+.slick .slick-prev, .slick .slick-next {
+  width: 50px;
+  height: 50px;
+}
+.slick .slick-prev {
+  left: 0;
+}
+.slick .slick-next {
+  right: 0;
+}
+.slick .slick-prev:before {
+  content: url(../img/home/arr_prev.svg);
+}
+.slick .slick-next:before {
+  content: url(../img/home/arr_next.svg);
+}
+.pr div {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  width: 20%;
-  margin-bottom: 40px;
+  justify-content: space-between;
+  height: 240px;
 }
-
+.pr div p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+.slick__mobile.slick-slider {
+  display: none;
+}
 @media screen and (max-width: 1788px) {
   .section__main {
     height: 1100px;
@@ -1040,6 +1067,21 @@
     -khtml-background-size: 200%;
     background-size: 200%;
   }
+  .slick-slide img {
+    width: 85%;
+  }
+  .slick__desktop.slick-slider {
+    display: none;
+  }
+  .slick__mobile.slick-slider {
+    display: block;
+  }
+  .pr div {
+    height: 330px;
+  }
+  .pr div p {
+    height: 110px;
+  }
 }
 @media screen and (max-width: 600px) {
   .section__main {
@@ -1064,19 +1106,6 @@
     max-width: 235px;
     margin-bottom: 20px;
   }
-  .section__block .pr {
-    height: 90px;
-  }
-  .section__projects .pr_1 {order: 1;}
-  .section__projects .pr_4 {order: 2;}
-  .section__projects .pr_2 {order: 3;}
-  .section__projects .pr_7 {order: 4;}
-  .section__projects .pr_5 {order: 5;}
-  .section__projects .pr_6 {order: 6;}
-  .section__projects .pr_9 {order: 7;}
-  .section__projects .pr_8 {order: 8;}
-  .section__projects .pr_10 {order: 9;}
-  .section__projects .pr_3 {order: 10;}
 }
 @media screen and (max-width: 560px) {
   .section__main {
@@ -1220,4 +1249,9 @@
   .pr_8 img {width: 124px;}
   .pr_9 img {width: 134px;}
   .pr_10 img {width: 120px;}
+}
+@media screen and (max-width: 420px) {
+  .slick-slide img {
+    width: 70%;
+  }
 }
