@@ -358,11 +358,12 @@
   background: #00C297;
 }
 .design__descr {
-  font-family: Ekibastuz;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 18px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
   color: #4A4A4A;
   margin-bottom: 86px;
 }
