@@ -84,7 +84,7 @@ $(document).ready(function(){
 
 	$('.slick__desktop').slick({
 		infinite: true,
-		slidesToShow: 3,
+		slidesToShow: 5,
 		slidesToScroll: 1
 	});
 	$('.slick__mobile').slick({
