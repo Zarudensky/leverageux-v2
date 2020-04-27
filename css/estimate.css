@@ -179,6 +179,7 @@
   background: #008791;
 }
 .main__block_inputs {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -190,6 +191,49 @@
   width: calc(50% - 12.5px);
   max-width: 330px;
   margin-top: 0;
+}
+.validation.invalid {
+  border: 1px solid #EE4055;
+}
+.radio__check.invalid {
+  border: 1px solid #EE4055;
+}
+.validation__text {
+  position: absolute;
+  display: none;
+  align-items: center;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #EE4055;
+  white-space: nowrap;
+}
+.validation__text.active {
+  display: inline-flex;
+}
+.validation__text img {
+  margin-right: 4px;
+}
+.validation__text-inputs {
+  bottom: 35px;
+  left: 45px;
+}
+.valid__text {
+  display: none;
+}
+.valid__text.active {
+  display: inline;
+}
+.validation__text-description {
+  top: 90px;
+  left: calc(100% + 20px);
+}
+.validation__text-radio {
+  top: 20px;
+  left: calc(100% + 20px);
 }
 .secondary__form {
   position: relative;
@@ -226,6 +270,9 @@
   line-height: 18px;
   color: #828282;
   margin-bottom: 25px;
+}
+.secondary__form_radio {
+  position: relative;
 }
 .radio__block {
   display: flex;
@@ -313,7 +360,22 @@
     max-width: 230px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .validation__text.validation__text-description,
+  .validation__text.validation__text-radio {
+    position: relative;
+    top: -10px;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 960px) {
+  .validation__text-inputs {
+    bottom: 15px;
+    left: 25px;
+  }
   .namber__block_img {
     margin-right: 13px;
     height: 75px;
@@ -350,6 +412,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .validation__text-inputs {
+    bottom: 25px;
+  }
   .estimate__container {
     max-width: 580px;
     width: calc(100% - 20px);
@@ -424,5 +489,11 @@
   }
   .radio__check {
     min-width: 18px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .validation__text {
+    font-size: 12px;
+    line-height: 12px;
   }
 }

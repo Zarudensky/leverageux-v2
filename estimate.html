@@ -143,29 +143,54 @@
 								<p class="namber__block_txt">Fill the form<br>and get an<br>estimate</p>
 							</div>
 							<div class="main__block_inputs">
-								<input class="main__input" id="firstName" name="firstName" type="text" placeholder="First Name"/>
-								<input class="main__input" id="lastName" name="lastName" type="text" placeholder="Last Name"/>
-								<input class="main__input" id="email" name="email" type="email" placeholder="Email">
-								<input class="main__input" id="phone" name="phone" type="tel" placeholder="Phone Number"/>
+								<input class="main__input main__input-name validation focus" id="firstName" name="firstName" type="text" placeholder="First Name"/>
+								<div class="validation__text validation__text-inputs">
+									<img src="./img/estimate/invalid.svg" alt="invalid">
+									<span class="valid__text valid__text-name">please enter first name</span>
+								</div>
+								<input class="main__input main__input-sername validation focus" id="lastName" name="lastName" type="text" placeholder="Last Name"/>
+								<div class="validation__text validation__text-inputs">
+									<img src="./img/estimate/invalid.svg" alt="invalid">
+									<span class="valid__text valid__text-sername">please enter last name</span>
+								</div>
+								<input class="main__input main__input-email validation focus" id="email" name="email" type="email" placeholder="Email">
+								<div class="validation__text validation__text-inputs">
+									<img src="./img/estimate/invalid.svg" alt="invalid">
+									<span class="valid__text valid__text-email">please enter email</span>
+									<span class="valid__text valid__text-email_correct">please enter the correct email</span>
+								</div>
+								<input class="main__input main__input-phone validation focus" id="phone" name="phone" type="tel" placeholder="Phone Number"/>
+								<div class="validation__text validation__text-inputs">
+									<img src="./img/estimate/invalid.svg" alt="invalid">
+									<span class="valid__text valid__text-phone">please enter phone number</span>
+									<span class="valid__text valid__text-phone_correct">please enter the correct phone number</span>
+								</div>
+								<div class="validation__text validation__text-inputs">
+									<img src="./img/estimate/invalid.svg" alt="invalid">
+									<span class="valid__text valid__text-all">please fill this fields</span>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="estimate__form_block secondary__form">
 						<p class="secondary__form_mailink">Need NDA first? E-mail us at <a href="mailto:hello@leverageux.com">hello@Leverageux.com</a></p>
-						<textarea id="descrEstimate" name="description" class="secondary__form_text" placeholder="Short Description Of Your Idea"></textarea>
+						<textarea id="descrEstimate" name="description" class="secondary__form_text validation focus" placeholder="Short Description Of Your Idea"></textarea>
+						<div class="validation__text validation__text-description"><img src="./img/estimate/invalid.svg" alt="invalid">please fill Description field</div>
 						<p class="secondary__form_description">LeverageUX is committed to processing the above information in order to contact you and talk about your project. Other information is used for statistical purposes and, from time to time, we would like to contact you about our other products and services, as well as other content that may be of interest to you. If you consent to contact you for this purposes, please tick below:</p>
 						<div class="secondary__form_radio">
 							<label class="radio__block" id="project">
 								<input class="secondary__radio" type="radio" name="radio" value="project">
-								<span class="radio__check"></span>
+								<span class="radio__check radio__check-project"></span>
 								<p class="secondary__radio_name agree__project">I agree to talk about my project with LeverageUX.</p>
 							</label>
 							<label class="radio__block" id="communications">
 								<input class="secondary__radio" type="radio" name="radio" value="communications">
-								<span class="radio__check"></span>
+								<span class="radio__check radio__check-communications"></span>
 								<p class="secondary__radio_name agree__communications">I agree to receive other communications from LeverageUX.</p>
 							</label>
+							<div class="validation__text validation__text-radio"><img src="./img/estimate/invalid.svg" alt="invalid">please choose an agreement type</div>
 						</div>
+
 						<p class="secondary__form_description">You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices please view our Privacy Policy.</p>
 						<button class="btn btn__estimate" id="formBtnEstimate">Estimate Project</button>
 					</div>
