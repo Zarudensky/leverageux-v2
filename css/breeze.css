@@ -12,8 +12,8 @@
 }
 
 /*---------- section__summary ----------*/
-.breeze__page .summary__block-info a {
-  color: #C82DF3;
+.breeze__page .summary__block-info a:hover {
+  background: linear-gradient(94.95deg, #1E38D7 0%, #C71DEA 103.53%);
 }
 
 /*---------- section__comment ----------*/

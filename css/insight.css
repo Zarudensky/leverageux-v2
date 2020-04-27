@@ -24,6 +24,11 @@
   font-weight: bold;
 }
 
+/*---------- section__summary ----------*/
+.insight__page .summary__block-info a:hover {
+  background: linear-gradient(94.95deg, #3E0DBA 0%, #0CBDA3 103.53%);
+}
+
 /*---------- section__comment ----------*/
 .section__comment {
   background: linear-gradient(234.91deg, #0CBDA3 -1.74%, #3E0DBA 92.3%);
