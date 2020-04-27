@@ -7,17 +7,22 @@
 .showcase .header__menu_link a {
 	color: #fff;
 }
-.showcase .header.scrolled .header__menu_link a {
-  color: #A6A6A6;
+.showcase .header.scrolled .link__line {
+  background: #00A2B8;
 }
-
+.showcase .header.scrolled .header__menu_link a {
+	color: #A6A6A6;
+}
+.showcase .header.scrolled .header__menu_link.active a,
+.showcase .header.scrolled .header__menu_link a:hover {
+  color: #00A2B8;
+}
 .showcase .header__btn_om:hover span, 
 .showcase .header.scrolled .header__btn_om:hover span {
 	background: #4A4A4A;
 }
 
-.showcase .header__menu_link a:hover,
-.showcase .header.scrolled .header__menu_link a:hover {
+.showcase .header__menu_link a:hover {
   color: #4A4A4A;
 }
 .showcase .header__btn_om span {
