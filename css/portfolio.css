@@ -3,6 +3,89 @@
   padding-top: 210px;
   background-image: url(../img/portfolio/hero.png);
 }
+.section__data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__data_description {
+  width: 100%;
+  max-width: 890px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #4A4A4A;
+  margin-bottom: 50px;
+}
+.data__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 50px);
+  max-width: 1000px;
+  margin-bottom: 140px;
+}
+.data__container_block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.data__container_number {
+  position: relative;
+  margin-right: 12px;
+}
+.data__container_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 85px;
+  margin-top: 20px;
+}
+.data__container_description.center {
+  margin-top: 7px;
+}
+.data__container_description p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: left;
+  color: #6C6C6C;
+}
+.data__container_line {
+  width: 1px;
+  height: 44px;
+  background: #aaa;
+}
+.section__data_inscription {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.section__data_inscription img {
+  border: 42px solid #fff;
+  background: #fff;
+  z-index: 2;
+}
+.section__data_inscription:before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 1px;
+  background: #D8D8D8;
+  top: 135px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
 .section__plants .section__container_img {
   background-image: url(../img/portfolio/plants.png);
 }
@@ -34,6 +117,59 @@
 @media screen and (max-width: 960px) {
   .portfolio__page .section__container_text {
     margin-top: 0;
+  }
+  .data__container_line {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+  .data__container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .data__container_number {
+    margin: 0 0 10px 0;
+  }
+  .data__container_block {
+    width: 200px;
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .data__container_description {
+    flex-direction: row;
+    height: auto;
+    margin-top: 0
+  }
+  .data__container_description.center {
+    margin-top: 0
+  }
+  .data__container_description img {
+    margin-right: 10px;
+  }
+  .data__container_description p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .data__container_description p br {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .section__data_inscription {
+    margin-bottom: 75px;
+  }
+  .section__data_inscription img {
+    height: 100px;
+    border: none;
+  }
+  .section__data_inscription:before {
+    content: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section__data_description {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 @media screen and (max-width: 560px) {
