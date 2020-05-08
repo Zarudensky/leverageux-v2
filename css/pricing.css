@@ -212,11 +212,30 @@
 .mobile__price .mobile {
   display: inline-flex;
 }
+.desktop__price .titles h6.delete_for_desktop,
 .mobile__price .titles h6.delete_for_moble,
 .mobile__price .delete_for_moble,
+.desktop__price .delete_for_desktop,
 .mobile__price .desktop,
-.desktop__price .mobile {
+.desktop__price .mobile,
+.mobile__price .info__check.check.desktop,
+.desktop__price .info__check.check.mobile,
+.mobile__price .info__check.text.desktop,
+.desktop__price .info__check.text.mobile,
+.mobile__price .tabl .info__descr.desktop,
+.desktop__price .tabl .info__descr.mobile {
   display: none;
+}
+.mobile__price .tabl .mobile__info_first .info__descr {
+  border-top: none;
+}
+.titles h6 span {
+ font-size: 10px;
+}
+.titles h6.mobile__title {
+  font-size: 13px;
+  align-items: flex-end;
+  flex-direction: column;
 }
 .plan__block {
   display: flex;
@@ -620,6 +639,9 @@
     height: auto;
     border-top: 1px solid #D8D8D8;
     padding: 12px 0 5px;
+  }
+  .tabl__block_info.mobile__info_first {
+    border-top: none;
   }
   .tabl__block_info.tabl__info_first {
     border-top: none;

@@ -3,10 +3,14 @@ $(document).ready(function(){
 	$('.label1').click(function() {
 		$('.plans').addClass('mobile__price');
 		$('.plans').removeClass('desktop__price');
+		$('.addons').addClass('mobile__price');
+		$('.addons').removeClass('desktop__price');
 	});
 	$('.label2').click(function() {
 		$('.plans').addClass('desktop__price');
 		$('.plans').removeClass('mobile__price');
+		$('.addons').addClass('desktop__price');
+		$('.addons').removeClass('mobile__price');
 	});
 
 	// modal form buy
