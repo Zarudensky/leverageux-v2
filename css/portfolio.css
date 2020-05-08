@@ -87,19 +87,19 @@
   width: 100%;
 }
 .section__plants .section__container_img {
-  background-image: url(../img/portfolio/plants.png);
+  background-image: url(../img/portfolio/plants.jpg);
 }
 .section__plants .section__container_text {
   margin-top: 75px;
 }
 .section__insight .section__container_img {
-  background-image: url(../img/portfolio/insight.png);
+  background-image: url(../img/portfolio/insight.jpg);
 }
 .section__insight .section__container_text {
   margin-top: 75px;
 }
 .section__rank .section__container_img {
-  background-image: url(../img/portfolio/rank.png);
+  background-image: url(../img/portfolio/rank.jpg);
 }
 .section__rank .section__container_text {
   margin-top: 75px;
