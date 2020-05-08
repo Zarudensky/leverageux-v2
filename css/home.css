@@ -619,16 +619,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 240px;
 }
 .pr div p {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 120px;
+  padding: 20px;
 }
 .slick__mobile.slick-slider {
   display: none;
+}
+.slick-slide img {
+  width: 100%;
 }
 @media screen and (max-width: 1788px) {
   .section__main {
@@ -950,6 +953,7 @@
   }
   .pr div p {
     height: 110px;
+    padding: 0;
   }
 }
 @media screen and (max-width: 872px) {
