@@ -691,9 +691,6 @@
 .showcase .contacts__email {
 	color: #fff;
 }
-.showcase .contacts__block p {
-	opacity: 0.4;
-}
 .showcase .footer__line {
   background: rgba(255, 255, 255, 0.25);
 }
