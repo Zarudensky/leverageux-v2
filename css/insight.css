@@ -17,7 +17,7 @@
 
 /*---------- hero ----------*/
 .insight__page .section__hero {
-  background-image: url(../img/showcases/insight/hero.png);
+  background-image: url(../img/showcases/insight/hero.jpg);
 }
 .showcase .hero__title span {
   font-family: 'Ekibastuz';
@@ -75,21 +75,21 @@
 
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
-  background-image: url(../img/showcases/insight/updated.png);
+  background-image: url(../img/showcases/insight/updated.jpg);
 }
 .section__updated .section__container_text {
   margin-top: 150px;
 }
 
 .section__visual .section__container_img {
-  background-image: url(../img/showcases/insight/visual.png);
+  background-image: url(../img/showcases/insight/visual.jpg);
 }
 .section__visual .section__container_text {
   margin-top: 110px;
 }
 
 .section__driven .section__container_img {
-  background-image: url(../img/showcases/insight/driven.png);
+  background-image: url(../img/showcases/insight/driven.jpg);
 }
 .section__driven .section__container_text {
   margin-top: 85px;
@@ -124,6 +124,6 @@
 }
 @media screen and (max-width: 560px) {
   .insight__page .section__hero {
-    background-image: url(../img/showcases/insight/hero_mob.png);
+    background-image: url(../img/showcases/insight/hero_mob.jpg);
   }
 }

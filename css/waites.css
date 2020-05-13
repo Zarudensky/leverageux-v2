@@ -16,7 +16,7 @@
 
 /*---------- hero ----------*/
 .waites__page .section__hero {
-  background-image: url(../img/showcases/waites/hero.png);
+  background-image: url(../img/showcases/waites/hero.jpg);
 }
 .showcase.waites__page .hero__lines {
   background-image: url(../img/showcases/waites/hero_lines.svg);
@@ -147,28 +147,28 @@
 
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
-  background-image: url(../img/showcases/waites/updated.png);
+  background-image: url(../img/showcases/waites/updated.jpg);
 }
 .section__updated .section__container_text {
   margin-top: 150px;
 }
 
 .section__alarms .section__container_img {
-  background-image: url(../img/showcases/waites/alarms.png);
+  background-image: url(../img/showcases/waites/alarms.jpg);
 }
 .section__alarms .section__container_text {
   margin-top: 185px;
 }
 
 .section__equipment .section__container_img {
-  background-image: url(../img/showcases/waites/equipment.png);
+  background-image: url(../img/showcases/waites/equipment.jpg);
 }
 .section__equipment .section__container_text {
   margin-top: 190px;
 }
 
 .section__system .section__container_img {
-  background-image: url(../img/showcases/waites/system.png);
+  background-image: url(../img/showcases/waites/system.jpg);
 }
 .section__system .section__container_text {
   margin-top: 170px;
@@ -221,7 +221,7 @@
 
 @media screen and (max-width: 560px) {
   .waites__page .section__hero {
-    background-image: url(../img/showcases/waites/hero_mob.png);
+    background-image: url(../img/showcases/waites/hero_mob.jpg);
   }
   .showcase.waites__page .hero__lines {
     background-image: url(../img/showcases/waites/hero_lines_mob.svg);

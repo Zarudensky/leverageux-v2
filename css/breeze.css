@@ -8,7 +8,7 @@
 
 /*---------- hero ----------*/
 .breeze__page .section__hero {
-  background-image: url(../img/showcases/breeze/hero.png);
+  background-image: url(../img/showcases/breeze/hero.jpg);
 }
 
 /*---------- section__summary ----------*/
@@ -67,21 +67,21 @@
 
 /*---------- section__board ----------*/
 .section__updated .section__container_img {
-  background-image: url(../img/showcases/breeze/updated.png);
+  background-image: url(../img/showcases/breeze/updated.jpg);
 }
 .section__updated .section__container_text {
   margin-top: 140px;
 }
 
 .section__visual .section__container_img {
-  background-image: url(../img/showcases/breeze/visual.png);
+  background-image: url(../img/showcases/breeze/visual.jpg);
 }
 .section__visual .section__container_text {
   margin-top: 110px;
 }
 
 .section__driven .section__container_img {
-  background-image: url(../img/showcases/breeze/driven.png);
+  background-image: url(../img/showcases/breeze/driven.jpg);
 }
 .section__driven .section__container_text {
   margin-top: 80px;
@@ -119,6 +119,6 @@
 }
 @media screen and (max-width: 560px) {
   .breeze__page .section__hero {
-    background-image: url(../img/showcases/breeze/hero_mob.png);
+    background-image: url(../img/showcases/breeze/hero_mob.jpg);
   }
 }

@@ -226,16 +226,11 @@
 .desktop__price .tabl .info__descr.mobile {
   display: none;
 }
-.mobile__price .tabl .mobile__info_first .info__descr {
-  border-top: none;
-}
-.titles h6 span {
- font-size: 10px;
-}
 .titles h6.mobile__title {
-  font-size: 13px;
+  width: 115%;
   align-items: flex-end;
   flex-direction: column;
+  margin-top: 15px;
 }
 .plan__block {
   display: flex;
@@ -268,7 +263,6 @@
   font-weight: normal;
   font-size: 14px;
   text-align: right;
-  text-transform: capitalize;
   color: #4A4A4A;
 }
 .plan__blocks {
@@ -378,7 +372,6 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  text-transform: capitalize;
   color: #6C6C6C;
 }
 .info__check {
@@ -639,9 +632,6 @@
     height: auto;
     border-top: 1px solid #D8D8D8;
     padding: 12px 0 5px;
-  }
-  .tabl__block_info.mobile__info_first {
-    border-top: none;
   }
   .tabl__block_info.tabl__info_first {
     border-top: none;
