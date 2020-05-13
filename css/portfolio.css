@@ -26,13 +26,16 @@
   align-items: center;
   justify-content: space-between;
   width: calc(100% - 50px);
-  max-width: 1150px;
+  max-width: 1075px;
   margin-bottom: 140px;
 }
 .data__container_block {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+.data__container_block-last {
+  margin-left: -25px;
 }
 .data__container_number {
   position: relative;

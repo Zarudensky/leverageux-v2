@@ -699,6 +699,7 @@ a {
   letter-spacing: 0.01em;
   text-decoration-line: underline;
   text-transform: capitalize;
+  text-align: center;
   color: #00A2B8;
   cursor: pointer;
 }
