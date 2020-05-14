@@ -58,6 +58,7 @@
 }
 .goals__block-project .goal:after {
   content: url(../img/showcases/waites/goal.svg);
+  right: -15px;
 }
 
 /*---------- section__challenges ----------*/

@@ -171,7 +171,7 @@
 	text-decoration: none;
 }
 .summary__block-descr {
-	padding: 20px 0 20px 84px;
+	padding: 20px 0 20px 75px;
 	border-left: 1px solid #C6C6C6;
 }
 .summary__block-descr img {
@@ -296,7 +296,7 @@
 .goals__block-project .goal:after {
 	position: absolute;
 	top: 8px;
-	right: -15px;
+	right: -16px;
 }
 .goals__block-project .goal:last-child:before {
 	content: '';
@@ -601,7 +601,6 @@
 }
 .applic {
 	display: flex;
-	align-items: center;
 }
 .applic span {
 	font-style: normal;
