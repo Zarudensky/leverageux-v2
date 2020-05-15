@@ -493,25 +493,25 @@ a {
   }
 }
 .section__real .img__board {
-  background-image: url(../img/home/real_board.png);
+  background-image: url(../img/home/real_board.webp);
 }
 .section__real .img__gradient {
   background-image: url(../img/home/real_gradient.svg);
 }
 .section__real .img__lower {
-  background-image: url(../img/home/real_lower.png);
+  background-image: url(../img/home/real_lower.webp);
 }
 .section__crypt .img__board {
-  background-image: url(../img/home/crypt_board.png);
+  background-image: url(../img/home/crypt_board.webp);
 }
 .section__crypt .img__gradient {
   background-image: url(../img/home/crypt_gradient.svg);
 }
 .section__crypt .img__lower {
-  background-image: url(../img/home/crypt_lower.png);
+  background-image: url(../img/home/crypt_lower.webp);
 }
 .section__money .img__board {
-  background-image: url(../img/home/money_board.png);
+  background-image: url(../img/home/money_board.webp);
 }
 .section__money .img__gradient {
   background-image: url(../img/home/money_gradient.svg);
