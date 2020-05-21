@@ -900,6 +900,9 @@
     text-align: center;
     max-width: 320px;
   }
+  .how__block_description br {
+    display: none;
+  }
   .how__block_third .how__block_title {
     color: #FFC959;
   }
@@ -1207,7 +1210,7 @@
     display: block;
   }
   .section__idea {
-    margin: 30px auto;
+    margin: 70px auto 0px;
   }
   .idea__img_lamp {
     width: 40px;

@@ -58,6 +58,7 @@
 .showcase .hero__descr {
 	text-transform: none;
 	text-align: start;
+	font-weight: normal;
   font-size: 24px;
   line-height: 32px;
   color: #fff;
@@ -1081,6 +1082,10 @@
   .challenge br,
   .goals__block p br {
   	display: none;
+  }
+  .showcase .section__title br,
+  .showcase .section__description br {
+	  display: none;
   }
 }
 @media screen and (max-width: 460px) {

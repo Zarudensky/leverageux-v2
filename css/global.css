@@ -679,7 +679,6 @@ a {
   margin-bottom: 106px;
 }
 .footer__title {
-  width: 529px;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
@@ -819,9 +818,6 @@ a {
   color: #fff;
   text-decoration-line: none;
 }
-.contacts__phone:hover {
-  
-}
 .contacts__email {
   color: #00A2B8;
 }
@@ -958,7 +954,6 @@ input {
 input[placeholder] {
   padding: 0 10px 0 25px;
   font-size: 14px;
-  color: #aaa;
 }
 input:focus {
   box-shadow: inset 0px 0px 2px #00A2B8;
@@ -975,7 +970,6 @@ textarea {
 textarea[placeholder] {
   padding: 18px 10px 5px 25px;
   font-size: 14px;
-  color: #aaa;
   margin-top: 25px;
 }
 textarea:focus {
