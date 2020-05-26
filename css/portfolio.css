@@ -89,6 +89,15 @@
   right: 0;
   width: 100%;
 }
+.section__broker .section__container_img {
+  background-image: url(../img/portfolio/broker.jpg);
+}
+.section__broker .section__container_text {
+  margin-top: 75px;
+}
+.section__broker span.pt_5 {
+  margin-left: 10%;
+}
 .section__plants .section__container_img {
   background-image: url(../img/portfolio/plants.jpg);
 }
@@ -123,6 +132,9 @@
   }
   .data__container_line {
     display: none;
+  }
+  .section__broker span.pt_5 {
+    margin-left: 6px;
   }
 }
 @media screen and (max-width: 920px) {
