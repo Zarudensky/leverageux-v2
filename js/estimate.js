@@ -41,18 +41,18 @@ $(document).ready(function(){
 	});
 
 	function validation() {
-	    let valid = true;
-	    $('.validation').each(function() {
+		let valid = true;
+		$('.validation').each(function() {
 		  if(!$(this).val().length >= 1){
 		  	$(this).addClass('invalid');
-            valid = false;
+				valid = false;
 		  }
 		});
 		$('.main__input').each(function() {
 		  if(!$(this).val().length >= 1){
 		  	$('.validation__text-inputs').addClass('active');
 		  	validText();
-            valid = false;
+				valid = false;
 		  }
 		});
 		if( !validEmail($('.main__input-email').val())) {
@@ -73,7 +73,7 @@ $(document).ready(function(){
 			$('.validation__text-radio').addClass('active');
 			valid = false;
 		}
-	    return valid;
+		return valid;
 	}
 
 
@@ -169,7 +169,6 @@ $(document).ready(function(){
 			$('.validation__text-inputs').removeClass('active');
 			removeActiveValidText();
 		}
-
 	}
 
 	$('.secondary__form_text').focusout(function(){
@@ -182,7 +181,7 @@ $(document).ready(function(){
 	
 	$('#formBtnEstimate').click(function() {
 		if (validation()) {
-	        sendForm()
+				sendForm()
 	    }
 	});
 

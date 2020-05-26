@@ -340,9 +340,13 @@
 							<div class="form">
 								<div class="form__block">
 									<input type="text" id="plan" name="plan">
-									<input type="text" id="nameBuy" name="user_name" placeholder="Name" autofocus>
-									<input type="email" id="emailBuy" name="email" placeholder="Email">
-									<textarea id="descrBuy" name="description" placeholder="Give us a short description of the info you want us to provide. Thanks"></textarea>
+									<input type="text" class="validation validation__plan-form" id="nameBuy" name="user_name" placeholder="Name" autofocus>
+									<input type="email" class="validation validation__plan-form" id="emailBuy" name="email" placeholder="Email">
+									<textarea class="validation validation__textarea validation__plan-form" id="descrBuy" name="description" placeholder="Give us a short description of the info you want us to provide. Thanks"></textarea>
+									<div class="validation__text validation__text-plan">
+										<img src="./img/estimate/invalid.svg" alt="invalid">
+										<span class="valid__text valid__text-all_forms">please fill these fields</span>
+									</div>
 									<button class="btn btn_send" id="formBtnBuy">Buy Now</button>
 								</div>
 								<div class="send__message">Thanks, your letter sent.</div>
@@ -437,9 +441,13 @@
 					</span>
 					<div class="form">
 						<div class="form__block">
-							<input type="text" id="nameFooter" name="user_name" placeholder="Name" autofocus>
-							<input type="email" id="emailFooter" name="email" placeholder="Email">
-							<textarea id="descrFooter" name="description" placeholder="Give us a short description of the info you want us to provide. Thanks!"></textarea>
+							<input type="text" class="validation validation__footer-form" id="nameFooter" name="user_name" placeholder="Name" autofocus>
+							<input type="email" class="validation validation__footer-form validation__footer-email" id="emailFooter" name="email" placeholder="Email">
+							<textarea class="validation validation__textarea validation__footer-form" id="descrFooter" name="description" placeholder="Give us a short description of the info you want us to provide. Thanks!"></textarea>
+							<div class="validation__text validation__text-footer">
+								<img src="./img/estimate/invalid.svg" alt="invalid">
+								<span class="valid__text valid__text-all_forms">please fill these fields</span>
+							</div>
 							<button class="btn btn_send" id="formBtnFooter">Let's do it</button>
 						</div>
 						<div class="send__message">Thanks, your letter sent.</div>

@@ -192,30 +192,8 @@
   max-width: 330px;
   margin-top: 0;
 }
-.validation.invalid {
-  border: 1px solid #EE4055;
-}
 .radio__check.invalid {
   border: 1px solid #EE4055;
-}
-.validation__text {
-  position: absolute;
-  display: none;
-  align-items: center;
-  width: 100%;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 14px;
-  text-transform: capitalize;
-  color: #EE4055;
-  white-space: nowrap;
-}
-.validation__text.active {
-  display: inline-flex;
-}
-.validation__text img {
-  margin-right: 4px;
 }
 .validation__text-inputs {
   bottom: 35px;

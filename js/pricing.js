@@ -60,8 +60,44 @@ $(document).ready(function(){
 	  	$(inputPlan).val(formPlan);
 	});
 
-	// send form design
+	// send form design and validation
+	function validationPlan() {
+		let valid = true;
+		$('.validation__plan-form').each(function() {
+		  if(!$(this).val().length >= 1){
+				$(this).addClass('invalid');
+				validTextPlan();
+				valid = false;
+			}
+		});
+		return valid;
+	}
+	function validTextPlan() {
+		$('.validation__plan-form').each(function() {
+		  if(!$(this).val().length >= 1){
+		  	$('.validation__text-plan').addClass('active');
+		  } else {
+				$('.validation__text-plan').removeClass('active');
+			}
+		});
+	}
+	$('.validation__plan-form').focus(function() {
+		$(this).removeClass('invalid');
+	});
+	$('.validation__plan-form').focusout(function(){
+		if(!$(this).val().length >= 1){
+			$(this).addClass('invalid');
+		}
+	});
+	$('.validation__textarea').keyup(function() {
+		validTextPlan();
+	});
 	$('#formBtnBuy').click(function() {
+		if (validationPlan()) {
+	        sendFormPlan()
+	    }
+	});
+	function sendFormPlan() {
 		var plan = $('#plan').val();
 		var firstname = $('#nameBuy').val();
 		var email = $('#emailBuy').val();
@@ -135,5 +171,5 @@ $(document).ready(function(){
 	       } 
 	    // Sends the request	    
 	    xhr.send(final_data)
-	});
+	}
 });

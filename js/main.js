@@ -97,8 +97,44 @@ $(document).ready(function(){
 	  	$('#descrFooter').val("");
 	});
 
-	// send form footer
+	// send form footer and validation
+	function validation() {
+		let valid = true;
+		$('.validation__footer-form').each(function() {
+		  if(!$(this).val().length >= 1){
+				$(this).addClass('invalid');
+				validText();
+				valid = false;
+			}
+		});
+		return valid;
+	}
+	function validText() {
+		$('.validation__footer-form').each(function() {
+		  if(!$(this).val().length >= 1){
+		  	$('.validation__text-footer').addClass('active');
+		  } else {
+				$('.validation__text-footer').removeClass('active');
+			}
+		});
+	}
+	$('.validation__footer-form').focus(function() {
+		$(this).removeClass('invalid');
+	});
+	$('.validation__footer-form').focusout(function(){
+		if(!$(this).val().length >= 1){
+			$(this).addClass('invalid');
+		}
+	});
+	$('.validation__textarea').keyup(function() {
+		validText();
+	});
 	$('#formBtnFooter').click(function() {
+		if (validation()) {
+	        sendForm()
+	    }
+	});
+	function sendForm() {
 		var firstname = $('#nameFooter').val();
 		var email = $('#emailFooter').val();
 		var descr = $('#descrFooter').val();
@@ -167,5 +203,5 @@ $(document).ready(function(){
 	       } 
 	    // Sends the request	    
 	    xhr.send(final_data)
-	});
+	}
 });
