@@ -124,13 +124,16 @@
 
 @media screen and (max-width: 1100px) {
   .challenge_1:before {
-    background: #54C6DC;
+    background: #0daf8a;
   }
   .challenge_2:before {
-    background: #51B2DF;
+    background: #0fac8b;
   }
   .challenge_3:before {
-    background: #445CE8;
+    background: #0b9495;
+  }
+  .challenge_4:before {
+    background: #0b9595;
   }
 }
 
