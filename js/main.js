@@ -107,7 +107,16 @@ $(document).ready(function(){
 				valid = false;
 			}
 		});
+		if( !validEmail($('.validation__footer-email').val())) {
+			$('.validation__footer-email').addClass('invalid');
+			$('.validation__text-footer').addClass('active');
+			valid = false;
+		}
 		return valid;
+	}
+	function validEmail(email) {
+	  var regexEmail = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	  return regexEmail.test(email);
 	}
 	function validText() {
 		$('.validation__footer-form').each(function() {
