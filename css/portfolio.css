@@ -116,6 +116,9 @@
 .section__rank .section__container_text {
   margin-top: 75px;
 }
+.br_mob {
+  display: none;
+}
 
 @media screen and (max-width: 1220px) {
 	.portfolio__page .section__hero {
@@ -135,6 +138,12 @@
   }
   .section__broker span.pt_5 {
     margin-left: 6px;
+  }
+  .br_desck {
+    display: none;
+  }
+  .br_mob {
+    display: inline;
   }
 }
 @media screen and (max-width: 920px) {
