@@ -70,7 +70,16 @@ $(document).ready(function(){
 				valid = false;
 			}
 		});
+		if( !validEmailPlan($('.validation__plan-email').val())) {
+			$('.validation__plan-email').addClass('invalid');
+			$('.validation__text-plan').addClass('active');
+			valid = false;
+		}
 		return valid;
+	}
+	function validEmailPlan(email) {
+	  var regexEmail = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	  return regexEmail.test(email);
 	}
 	function validTextPlan() {
 		$('.validation__plan-form').each(function() {
