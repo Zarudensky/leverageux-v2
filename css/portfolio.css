@@ -95,14 +95,8 @@
 .section__broker .section__container_text {
   margin-top: 75px;
 }
-.section__broker span.pt_5 {
-  margin-left: 10%;
-}
-.section__plants .section__container_img {
-  background-image: url(../img/portfolio/plants.jpg);
-}
-.section__plants .section__container_text {
-  margin-top: 75px;
+.section__broker span.pt_4 {
+  margin-right: 10%;
 }
 .section__insight .section__container_img {
   background-image: url(../img/portfolio/insight.jpg);
